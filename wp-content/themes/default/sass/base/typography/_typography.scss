@@ -1,0 +1,32 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-primary;
+	font-family: $font__main;
+	font-size: 1rem;
+	line-height: $font__line-height-body;
+}
+
+@font-face {
+	font-family: Jost;
+	src: url('fonts/Jost-Light.ttf');
+	font-weight: lighter;
+}
+
+@font-face {
+	font-family: Jost;
+	src: url('fonts/Jost-Regular.ttf');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url('fonts/OpenSans-Regular.ttf');
+	font-weight: normal;
+}
+
+@import "headings";
+@import "copy";

@@ -1,0 +1,15 @@
+// Start
+main {
+	margin-top: 10em;
+}
+
+.entry-content {
+	> figure {
+		margin-top: -4em;
+	}
+}
+
+// Images
+.wp-block-gallery .blocks-gallery-item {
+	margin: 0;
+}

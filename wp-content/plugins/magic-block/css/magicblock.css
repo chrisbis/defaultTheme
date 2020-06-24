@@ -1,0 +1,86 @@
+
+.magicblock-editor > .editor-inner-blocks {
+    border-top-left-radius: 0px;
+    padding: 0 1em;
+    border: 1px solid rgb(215, 215, 215);
+}
+
+.magicblock-editor .editor-block-list__block-edit {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.magicblock-label {
+    font-size: .6em;
+    padding: .5em 1em ;
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+    display: inline-block;
+    border: 1px solid rgb(215, 215, 215);
+    border-bottom: none;
+    transform: translateY(1px);
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.editor-plain-text.magicblock-plaintext {
+    font-family: Menlo,Consolas,monaco,monospace;
+    font-size: 14px;
+    color: #23282d;
+    padding: .8em 1em;
+    border: 1px solid rgb(135, 135, 135);
+    border-radius: 4px;
+}
+
+.magicblock-class-span, .magicblock-id-span {
+    display: inline-block;
+    padding:3px 6px;
+    margin: 0 3px;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.magicblock-class-span {
+    background: rgba(173, 216, 230, 0.242);
+}
+
+.magicblock-id-span {
+    background: rgba(230, 186, 173, 0.214);
+}
+
+.magicblock-newtab {
+    margin-top: 1em;
+}
+
+.edit-post-settings-sidebar__panel-block .components-panel__body .magicblock-newtab .components-base-control {
+    margin-bottom: .3em;
+}
+
+.magicblock-custom-attr-pair {
+    margin-bottom: 10px;
+    padding: 1em;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+
+.magicblock-custom-attr-pair > div {
+    margin-bottom: 1em;
+}
+
+.magicblock-custom-attr-key-field {
+    display: flex;
+    align-items: center;
+}
+
+.magicblock-custom-attr-key-field-prefix {
+    margin-right: .5em;
+}
+
+.magicblock-custom-attr-label {
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+.magic-block-right-align {
+    text-align: right;
+}

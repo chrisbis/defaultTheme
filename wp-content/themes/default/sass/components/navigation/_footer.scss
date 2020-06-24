@@ -1,0 +1,28 @@
+.site-footer {
+    background-color: $color__white;
+    border-top: 1px solid $color__primary;
+
+    .footer-menus {
+        padding: 1em 0;
+
+        .footer-menu {
+            padding: 1em;
+            border-bottom: 1px solid $color__primary;
+        }
+    }
+
+    .site-info {
+        padding: 1em;
+        color: $color__text-third;
+        background-color: $color__primary;
+        // text-align: center;
+        font-size: $font__small;
+    }
+
+    a {
+        color: $color__text-primary;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
