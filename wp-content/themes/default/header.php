@@ -28,32 +28,36 @@
 		<nav id="site-navigation" class="main-navigation">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-3">
 						<div class="site-title">
 							<?php
 								the_custom_logo();
 							?>
 						</div>
 					</div>
-					<div class="col-md-9">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'petti-cap' ); ?></button>
-						<?php
-							if ( is_front_page() ) :
-								wp_nav_menu(
-									array(
-										'theme_location' => 'header',
-										'menu_class'     => 'primary-menu',
-									)
-								);
-							else :
-								wp_nav_menu(
-									array(
-										'theme_location' => 'header-not-front',
-										'menu_class'     => 'primary-menu',
-									)
-								);
-							endif;
-						?>
+					<div class="col-9">
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" title="<?php esc_html_e( 'Toggle Menu', 'petti-cap' ); ?>">
+						<i class="fa fa-bars"></i>	
+					</button>
+						<div class="menu-wrapper">
+							<?php
+								if ( is_front_page() ) :
+									wp_nav_menu(
+										array(
+											'theme_location' => 'header',
+											'menu_class'     => 'primary-menu',
+										)
+									);
+								else :
+									wp_nav_menu(
+										array(
+											'theme_location' => 'header-not-front',
+											'menu_class'     => 'primary-menu',
+										)
+									);
+								endif;
+							?>
+						</div>
 					</div>
 				</div>
 			</div>

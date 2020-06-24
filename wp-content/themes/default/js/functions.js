@@ -14,10 +14,10 @@ jQuery(document).ready(function($) {
 	// Header
 	$(window).on('scroll', function () {
 		if ($(this).scrollTop() > 50) {
-			$('.site-header').removeClass('header-big');
+			$('.main-navigation').removeClass('header-big');
 		}
 		else {
-			$('.site-header').addClass('header-big');
+			$('.main-navigation').addClass('header-big');
 		}
 	});
 });

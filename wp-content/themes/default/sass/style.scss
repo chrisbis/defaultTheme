@@ -51,7 +51,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 
 // Import variables and mixins.
-@import "abstracts/abstracts";
+@import "abstracts/variables";
 
 /*--------------------------------------------------------------
 # Generic
@@ -96,6 +96,3 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------- */
 @import "utilities/accessibility";
 
-/* Alignments
---------------------------------------------- */
-@import "utilities/alignments";

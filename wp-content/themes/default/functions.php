@@ -197,7 +197,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 function all_enqueue_scripts() {
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/vendor/bootstrap/js/bootstrap.bundle.min.js', array( 'jquery' ) );
 	// wp_enqueue_script( 'pagepiling', get_template_directory_uri() . '/vendor/pagepiling/jquery.pagepiling.min.js');
-	wp_enqueue_script( 'functions', get_template_directory_uri() . '/js/functions.js');
+	wp_enqueue_script( 'functions', get_template_directory_uri() . '/js/dest/functions.min.js');
 }
 add_action( 'wp_enqueue_scripts', 'all_enqueue_scripts');
 

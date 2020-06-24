@@ -1,13 +1,29 @@
 .site-footer {
     background-color: $color__white;
-    border-top: 1px solid $color__primary;
+    border-top: 10px solid $color__primary;
 
     .footer-menus {
-        padding: 1em 0;
-
         .footer-menu {
-            padding: 1em;
+            padding-top: 1em;
+            padding-bottom: 1em;
             border-bottom: 1px solid $color__primary;
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+    }
+
+    @media screen and (min-width: $size__small) {
+        border-top: 1px solid $color__primary;
+
+        .footer-menus {
+            padding: 1em 0;
+            
+            .footer-menu {
+                padding-top: 0;
+                padding-bottom: 0;
+                border-bottom: none;
+            }
         }
     }
 
