@@ -11,7 +11,7 @@ function headerScripts($) {
 	scrollHeader($);
 
 	$(window).on('scroll', function () {
-		scrollHeader($);
+		scrollHeader($, this);
 	});
 
 	$('.main-navigation a').click(function() {
@@ -32,8 +32,8 @@ function headerScripts($) {
 	});
 }
 
-function scrollHeader($) {
-	if ($(this).scrollTop() > 50) {
+function scrollHeader($, that) {
+	if ($(that).scrollTop() > 50) {
 		$('.main-navigation, .main').removeClass('header-big');
 	}
 	else {
@@ -43,7 +43,6 @@ function scrollHeader($) {
 
 function slick($) {
 	$('.slider .blocks-gallery-grid').slick({
-	
 	  });
 }
 
