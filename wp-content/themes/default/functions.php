@@ -104,11 +104,12 @@ if ( ! function_exists( 'petti_cap_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'petti_cap_setup' );
 
-function bootstrap_enqueue_styles() {
+function all_enqueue_styles() {
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/vendor/bootstrap/css/bootstrap.min.css' );
 	wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/vendor/fontawesome/css/all.min.css' );
+	wp_enqueue_style( 'slick', get_template_directory_uri() . '/vendor/slick/slick.css' );
 }
-add_action( 'wp_enqueue_scripts', 'bootstrap_enqueue_styles');
+add_action( 'wp_enqueue_scripts', 'all_enqueue_styles');
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -181,13 +182,6 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /**
- * Load Jetpack compatibility file.
- */
-if ( defined( 'JETPACK__VERSION' ) ) {
-	require get_template_directory() . '/inc/jetpack.php';
-}
-
-/**
  * Load WooCommerce compatibility file.
  */
 if ( class_exists( 'WooCommerce' ) ) {
@@ -196,19 +190,11 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 function all_enqueue_scripts() {
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/vendor/bootstrap/js/bootstrap.bundle.min.js', array( 'jquery' ) );
-	// wp_enqueue_script( 'pagepiling', get_template_directory_uri() . '/vendor/pagepiling/jquery.pagepiling.min.js');
+	wp_enqueue_script( 'slick', get_template_directory_uri() . '/vendor/slick/slick.min.js', array( 'jquery' ) );
 	wp_enqueue_script( 'functions', get_template_directory_uri() . '/js/dest/functions.min.js');
 }
 add_action( 'wp_enqueue_scripts', 'all_enqueue_scripts');
 
-function fullpage_enqueue_styles() {
-	// wp_enqueue_style( 'pagepiling', get_template_directory_uri() . '/vendor/pagepiling/jquery.pagepiling.min.css' );
-}
-add_action( 'wp_enqueue_scripts', 'fullpage_enqueue_styles');
-
-
-add_action( 'after_setup_theme', 'register_footer_menu' );
-add_action( 'after_setup_theme', 'register_header_menu' );
  
 function register_footer_menu() {
     register_nav_menu( 'footer', __( 'footer', 'footer' ) );
@@ -218,3 +204,6 @@ function register_header_menu() {
 	register_nav_menu( 'header', __( 'header', 'header' ) );
 	register_nav_menu( 'header-not-front', __( 'header-not-front', 'header-not-front' ) );
 }
+
+add_action( 'after_setup_theme', 'register_footer_menu' );
+add_action( 'after_setup_theme', 'register_header_menu' );

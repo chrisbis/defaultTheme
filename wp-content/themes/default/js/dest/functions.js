@@ -1,7 +1,24 @@
 "use strict";
 
 jQuery(document).ready(function ($) {
-  // Scroll Anchor Links
+  headerScripts($);
+  slick($);
+});
+
+function setHash(hash) {
+  window.location.hash = hash;
+}
+
+function headerScripts($) {
+  scrollHeader($);
+  $(window).on('scroll', function () {
+    scrollHeader($);
+  });
+  $('.main-navigation a').click(function () {
+    $('.main-navigation a').removeClass('focus');
+    $(this).addClass('focus');
+  }); // Scroll Anchor Links
+
   $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
     var hash = $(this).prop('hash');
@@ -10,17 +27,17 @@ jQuery(document).ready(function ($) {
     }, 800, function () {
       setHash(hash);
     });
-  }); // Header
-
-  $(window).on('scroll', function () {
-    if ($(this).scrollTop() > 50) {
-      $('.main-navigation').removeClass('header-big');
-    } else {
-      $('.main-navigation').addClass('header-big');
-    }
   });
-});
+}
 
-function setHash(hash) {
-  window.location.hash = hash;
+function scrollHeader($) {
+  if ($(this).scrollTop() > 50) {
+    $('.main-navigation, .main').removeClass('header-big');
+  } else {
+    $('.main-navigation, .main').addClass('header-big');
+  }
+}
+
+function slick($) {
+  $('.slider .blocks-gallery-grid').slick({});
 }
