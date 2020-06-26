@@ -39,5 +39,8 @@ function scrollHeader($, that) {
 }
 
 function slick($) {
-  $('.slider .blocks-gallery-grid').slick({});
+  $('.slider .blocks-gallery-grid').slick({
+    dots: true,
+    arrows: true
+  });
 }
