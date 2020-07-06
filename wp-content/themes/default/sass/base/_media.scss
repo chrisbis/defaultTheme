@@ -48,6 +48,17 @@ img {
 	width: 100%;
 }
 
+.gallery-no-slider {
+	.blocks-gallery-item {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+	@media screen and (min-width: $size__lg) {
+		// width: 33%;
+	}
+	
+}
+
 // Loops to enumerate the classes for gallery columns.
 @for $i from 2 through 9 {
 

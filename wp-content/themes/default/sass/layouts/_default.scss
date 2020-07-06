@@ -6,7 +6,7 @@ body {
 main {
 	transition: all 0.5s;
 	margin-top: 8rem;
-	@media screen and (min-width: $size__small) {
+	@media screen and (min-width: $size__sm) {
 		&.header-big {
 			margin-top: 10rem;
 		}
