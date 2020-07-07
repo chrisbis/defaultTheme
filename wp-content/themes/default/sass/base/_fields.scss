@@ -14,10 +14,11 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-	color: $color__text-input;
-	border: 1px solid $color__border-input;
-	border-radius: 3px;
+	color: $color__black;
+	border: 1px solid $color__primary;
+	border-radius: 2px;
 	padding: 3px;
+	width: 100%;
 
 	&:focus {
 		color: $color__text-input-focus;
@@ -32,20 +33,39 @@ textarea {
 	width: 100%;
 }
 
-input[type="submit"] {
-	background-color: $color__white;
+.product-teaser {
+	margin: 2em 0;
+}
+
+.product-teaser a, input[type="submit"], .button {
+	display: inline-block;
+	border-radius: 0.5em;
+	background-color: $color__primary;
+	color: $color__white;
+	padding: 0.6em 1em 0.5em 1em;
+	width: auto;
+	margin: 0.7em 0 0.7em 0;
 	cursor: pointer;
-	// position: relative;
-	// display: block;
+	text-decoration: none;
+	
+	&:hover {
+		background-color: $color__secondary;
+		color: $color__black;
+		text-decoration: none;
+	}
+}
 
-	// &::before {
-	// 	content: 'P';
-	// 	position: absolute;
-	// 	left: 0;
-	// 	top: 0;
-	// 	height: 10px;
-	// 	width: 10px;
-	// 	color: $color__black;
+input[type="submit"] {
+	margin-top: 0;
+}
 
-	// }
+label {
+	width: 100%;
+	font-size: 1.1rem;
+}
+
+form {
+	p {
+		margin-bottom: 0.7em;
+	}
 }

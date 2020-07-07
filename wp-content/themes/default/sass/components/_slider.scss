@@ -146,8 +146,12 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
+.product-slider {
+    margin-bottom: 2px;
+}
+
 .gallery-slider {
-    margin-top: 1.5em;
+    margin-top: 2.5em;
     .slick-prev, .slick-next {
         left: auto;
         top: -18px;
@@ -155,7 +159,7 @@ $slick-opacity-not-active: 0.25 !default;
         background-color: transparent;            
         &:before {
             color: $color__primary;
-            font-size: 21x;
+            font-size: 21px;
         }
         &:hover {
             width: 30px;

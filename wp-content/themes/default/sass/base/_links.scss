@@ -1,5 +1,6 @@
 a {
 	color: $color__link;
+	text-decoration: underline;
 
 	&:visited {
 		color: $color__link-visited;
@@ -20,23 +21,5 @@ a {
 	&:hover,
 	&:active {
 		outline: 0;
-	}
-}
-
-.product-teaser {
-	a {
-		display: inline-block;
-		border-radius: 0.5em;
-		background-color: $color__secondary;
-		color: $color__primary;
-		padding: 0.5em 1em;
-		width: auto;
-		margin: 0.7em 0;
-		
-		&:hover {
-			background-color: $color__primary;
-			color: $color__secondary;
-			text-decoration: none;
-		}
 	}
 }

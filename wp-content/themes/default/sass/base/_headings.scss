@@ -5,6 +5,19 @@ h4,
 h5,
 h6 {
 	clear: both;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 1em;
+	
+	&:after {
+		content: "";
+		display: inline-block;
+		border-bottom: 2px solid $color__primary;
+		width: 85%;
+		position: absolute;
+		bottom: -5px;
+		left: 0;
+	}
 }
 
 h1 {
