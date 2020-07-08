@@ -20,7 +20,7 @@ function headerScripts($) {
     $(this).addClass('focus');
   }); // Scroll Anchor Links
 
-  $(document).on('click', 'a[href^="#"]', function (event) {
+  $(document).on('click', 'a[href^="#"]:not(".nav-tab")', function (event) {
     event.preventDefault();
     var hash = $(this).prop('hash');
     $('html, body').animate({

@@ -21,7 +21,7 @@ function headerScripts($) {
 	})
 
 	// Scroll Anchor Links
-	$(document).on('click', 'a[href^="#"]', function (event) {
+	$(document).on('click', 'a[href^="#"]:not(".nav-tab")', function (event) {
 		event.preventDefault();
 		const hash = $(this).prop('hash')
 		$('html, body').animate({
