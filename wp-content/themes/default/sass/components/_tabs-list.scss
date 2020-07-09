@@ -1,0 +1,26 @@
+.tabs-list {
+    margin: 4em 0 2em 0;
+
+    .nav-tabs {
+        border-color: $color__primary;
+    
+        .nav-link {
+            text-decoration: none;
+            color: $color__black;
+            border-radius: 2px;
+    
+            &:hover {
+                border-color: $color__primary;
+            }
+    
+            &.active {
+                color: $color__black;
+                border-color: $color__primary $color__primary $color__white;
+            }
+        }
+    }
+
+    .tab-content {
+        padding: 1em;
+    }
+}
