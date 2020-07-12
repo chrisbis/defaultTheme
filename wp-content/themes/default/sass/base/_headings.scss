@@ -8,6 +8,7 @@ h6 {
 	position: relative;
 	display: inline-block;
 	margin-bottom: 1em;
+	font-size: $font__big;
 	
 	&:after {
 		content: "";
@@ -17,6 +18,10 @@ h6 {
 		position: absolute;
 		bottom: -5px;
 		left: 0;
+	}
+
+	@media screen and (min-width: $size__sm) {
+		font-size: $font__verybig;
 	}
 }
 

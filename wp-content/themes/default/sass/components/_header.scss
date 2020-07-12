@@ -2,7 +2,7 @@
 	display: block;
 	width: 100%;
 	background-color: $color__white;
-	border-bottom: 1px solid $color__primary;
+	border-bottom: 3px solid $color__primary;
 
 	-webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow:    0px 1px 10px 0px rgba(0, 0, 0, 0.75);
@@ -14,12 +14,18 @@
 
 	a {
 		text-decoration: none;
+
+		&.focus, &:hover {
+			text-decoration: underline;
+		}
 	}
 	
 	.site-title {
-		padding: 0.7em 0.7em 0.7em 0;
-		height: 4em;
-		width: auto;
+		// padding: 0.7em 1.8em 0.7em 0.1em;
+		padding: 0.3em 0 0.3em 0;
+		// margin-bottom: 0.7em;
+		// margin-top: 0.7em;
+		width: 100%;
 	}
 
 	ul {
@@ -44,12 +50,17 @@
 		}
 	}
 
+	.menu-row {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
 	.menu-toggle {
 		border: none;
 		background-color: $color__white;
 		font-size: 1.5em;
-		float: right;
-		padding: 0.5em 1em;
 	}
 
 	&.toggled {
@@ -107,7 +118,7 @@
 				width: auto;
 			}
 			.primary-menu {
-				margin-top: 3em;
+				margin-top: 3.5em;
 			}
 		}
 

@@ -28,14 +28,14 @@
 		<nav id="site-navigation" class="main-navigation">
 			<div class="container">
 				<div class="row">
-					<div class="col-3">
+					<div class="col-4 col-md-3">
 						<div class="site-title">
 							<?php
 								the_custom_logo();
 							?>
 						</div>
 					</div>
-					<div class="col-9">
+					<div class="col-8 col-md-9 menu-row">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" title="<?php esc_html_e( 'Toggle Menu', 'petti-cap' ); ?>">
 						<i class="fa fa-bars"></i>	
 					</button>

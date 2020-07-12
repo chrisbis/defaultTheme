@@ -28,14 +28,6 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 function tabs_list_cgb_block_assets() { // phpcs:ignore
-	// Register block styles for both frontend + backend.
-	wp_register_style(
-		'tabs_list-cgb-style-css', // Handle.
-		plugins_url( 'dist/blocks.style.build.css', dirname( __FILE__ ) ), // Block style CSS.
-		is_admin() ? array( 'wp-editor' ) : null, // Dependency to include the CSS after it.
-		null // filemtime( plugin_dir_path( __DIR__ ) . 'dist/blocks.style.build.css' ) // Version: File modification time.
-	);
-
 	// Register block editor script for backend.
 	wp_register_script(
 		'tabs_list-cgb-block-js', // Handle.
@@ -76,8 +68,6 @@ function tabs_list_cgb_block_assets() { // phpcs:ignore
 	 */
 	register_block_type(
 		'cgb/block-tabs-list', array(
-			// Enqueue blocks.style.build.css on both frontend & backend.
-			'style'         => 'tabs_list-cgb-style-css',
 			// Enqueue blocks.build.js in the editor only.
 			'editor_script' => 'tabs_list-cgb-block-js',
 			// Enqueue blocks.editor.build.css in the editor only.
