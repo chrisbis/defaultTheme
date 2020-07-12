@@ -10,7 +10,7 @@ const { registerBlockType } = wp.blocks;
 
 registerBlockType('cgb/block-tabs-list', {
 	title: 'Tabs List',
-	icon: 'excerpt-view', 
+	icon: 'excerpt-view',
 	category: 'common',
 	attributes: {
 		header1: { type: 'string' },
@@ -125,29 +125,39 @@ registerBlockType('cgb/block-tabs-list', {
 				<div class="nav-tab tabs-list">
 					<ul class="nav nav-tabs bar-tabs">
 						<li class="nav-item">
-							<a class="nav-link nav-tab active" data-toggle="tab" href="#tab1">
-								{props.attributes.header1}
-							</a>
+							<div class="nav-link-wrapper">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tab1">
+									{props.attributes.header1}
+								</a>
+							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link nav-tab" data-toggle="tab" href="#tab2">
-								{props.attributes.header2}
-							</a>
+							<div class="nav-link-wrapper">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tab2">
+									{props.attributes.header2}
+								</a>
+							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link nav-tab" data-toggle="tab" href="#tab3">
-								{props.attributes.header3}
-							</a>
+							<div class="nav-link-wrapper">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tab3">
+									{props.attributes.header3}
+								</a>
+							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link nav-tab" data-toggle="tab" href="#tab4">
-								{props.attributes.header4}
-							</a>
+							<div class="nav-link-wrapper">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tab4">
+									{props.attributes.header4}
+								</a>
+							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link nav-tab" data-toggle="tab" href="#tab5">
-								{props.attributes.header5}
-							</a>
+							<div class="nav-link-wrapper">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tab5">
+									{props.attributes.header5}
+								</a>
+							</div>
 						</li>
 					</ul>
 

@@ -17,6 +17,7 @@
             &.active {
                 color: $color__black;
                 border-color: transparent;
+                text-decoration: underline;
             }
         }
     }
@@ -40,6 +41,7 @@
                 &.active {
                     color: $color__black;
                     border-color: $color__primary $color__primary $color__white;
+                    text-decoration: none;
                 }
             }
         }
