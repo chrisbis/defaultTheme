@@ -36,8 +36,8 @@
 						</div>
 					</div>
 					<div class="col-8 col-md-9 menu-row">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" title="<?php esc_html_e( 'Toggle Menu', 'petti-cap' ); ?>">
-						<i class="fa fa-bars"></i>	
+					<button class="nav-icon menu-toggle" aria-controls="primary-menu" aria-expanded="false" title="<?php esc_html_e( 'Toggle Menu', 'petti-cap' ); ?>">
+						<div></div>
 					</button>
 						<div class="menu-wrapper">
 							<?php
