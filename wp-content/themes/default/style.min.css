@@ -133,7 +133,7 @@ main{-webkit-transition:all .5s;transition:all .5s;margin-top:8.8rem}
 .main-navigation .col:first-child{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
 .main-navigation .menu-toggle{background-color:#4c5c68;margin:0;padding:0;border:0;width:45px;height:45px}
 .main-navigation .menu-toggle .icon{display:block;width:100%;height:100%;position:relative;margin-left:auto;margin-right:auto;border-radius:4px}
-.main-navigation .menu-toggle .line{position:absolute;left:5px;height:4px;width:35px;background:#fff;border-radius:2px;-webkit-transition:.5s;transition:.5s;-webkit-transform-origin:center;transform-origin:center}
+.main-navigation .menu-toggle .line{position:absolute;left:5px;height:4px;width:35px;background:#fff;border-radius:2px;-webkit-transition:.9s;transition:.9s;-webkit-transform-origin:center;transform-origin:center}
 .main-navigation .menu-toggle .line:nth-child(1){top:8px}
 .main-navigation .menu-toggle .line:nth-child(2){top:20px}
 .main-navigation .menu-toggle .line:nth-child(3){top:32px}
