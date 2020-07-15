@@ -1,56 +1,56 @@
 .tabs-list {
-    margin: 4em 0 2em 0;
+	margin: 4em 0 2em 0;
 
-    .nav-tabs {
-        border-color: transparent;
-    
-        .nav-link {
-            text-decoration: none;
-            color: $color__black;
-            border-radius: 2px;
-            border-color: transparent;
-    
-            &:hover {
-                border-color: $color__primary;
-            }
-    
-            &.active {
-                color: $color__black;
-                border-color: transparent;
-                text-decoration: underline;
-            }
-        }
-    }
+	.nav-tabs {
+		border-color: transparent;
 
-    .tab-content {
-        padding: 1em;
-    }
+		.nav-link {
+			text-decoration: none;
+			color: $color__black;
+			border-radius: 2px;
+			border-color: transparent;
 
-    .slick-list {
-        width: 90%;
-        margin: auto;
-        border-bottom: 1px solid $color__primary;
-        margin-bottom: 0.5em;
-    }
+			&:hover {
+				border-color: $color__primary;
+			}
 
-    @media screen and (min-width: $size__xl) {
-        .nav-tabs {
-            border-color: $color__primary;
+			&.active {
+				color: $color__black;
+				border-color: transparent;
+				text-decoration: underline;
+			}
+		}
+	}
 
-            .nav-link {
-                &.active {
-                    color: $color__black;
-                    border-color: $color__primary $color__primary $color__white;
-                    text-decoration: none;
-                }
-            }
-        }
+	.tab-content {
+		padding: 1em;
+	}
 
-        .slick-list {
-            width: 100%;
-            margin: auto;
-            border-bottom: none;
-            margin-bottom: 0;
-        }
-    }
+	.slick-list {
+		width: 90%;
+		margin: auto;
+		border-bottom: 1px solid $color__primary;
+		margin-bottom: 0.5em;
+	}
+
+	@media screen and (min-width: $size__xl) {
+		.nav-tabs {
+			border-color: $color__primary;
+
+			.nav-link {
+				&.active {
+					color: $color__black;
+					border-color: $color__primary $color__primary $color__white;
+					text-decoration: none;
+				}
+			}
+		}
+
+		.slick-list {
+			width: 100%;
+			margin: auto;
+			border-bottom: none;
+			margin-bottom: 0;
+		}
+	}
 }

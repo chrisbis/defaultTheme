@@ -5,10 +5,13 @@ body {
 // Start
 main {
 	transition: all 0.5s;
-	margin-top: 8rem;
+	margin-top: 8.8rem;
 	@media screen and (min-width: $size__sm) {
+		margin-top: 8.8rem;
+	}
+	@media screen and (min-width: $size__md) {
 		&.header-big {
-			margin-top: 10rem;
+			margin-top: 9.8rem;
 		}
 	}
 }

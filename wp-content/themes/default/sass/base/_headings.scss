@@ -9,7 +9,7 @@ h6 {
 	display: inline-block;
 	margin-bottom: 1em;
 	font-size: $font__big;
-	
+
 	&:after {
 		content: "";
 		display: inline-block;
@@ -30,11 +30,11 @@ h1 {
 }
 
 h2 {
-	padding-top: 3.5em;
+	padding-top: 7rem;
 }
 
 section:first-child {
 	h1 {
-		padding-top: 3.5em;
+		padding-top: 7rem;
 	}
 }

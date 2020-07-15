@@ -16,6 +16,8 @@ function headerScripts($) {
     scrollHeader($, this);
   });
   $('.main-navigation a').click(function () {
+    $('.main-navigation').removeClass('toggled');
+    $('.menu-toggle').attr('aria-expanded', 'false');
     $('.main-navigation a').removeClass('focus');
     $(this).addClass('focus');
   }); // Scroll Anchor Links
