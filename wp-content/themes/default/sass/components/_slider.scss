@@ -71,8 +71,11 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
-/* Dots */
+.slick-slide {
+    padding: 0;
+}
 
+/* Dots */
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
 }
@@ -181,6 +184,16 @@ $slick-opacity-not-active: 0.25 !default;
     
     .slick-next {
         right: 0;
+    }
+
+    .slick-slide {
+        padding: 0.2em 0;
+    }
+
+    @media screen and (min-width: $size__md) {
+        .slick-slide {
+            padding: 0.2em 1em 0.2em 0;
+        }
     }
 }
 

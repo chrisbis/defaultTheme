@@ -1,5 +1,5 @@
 .tabs-list {
-	margin: 4em 0 2em 0;
+	margin: 1em 0 2em 0;
 
 	.nav-tabs {
 		border-color: transparent;
@@ -22,10 +22,6 @@
 		}
 	}
 
-	.tab-content {
-		padding: 1em;
-	}
-
 	.slick-list {
 		width: 90%;
 		margin: auto;
@@ -33,7 +29,29 @@
 		margin-bottom: 0.5em;
 	}
 
-	@media screen and (min-width: $size__xl) {
+	.bar-tabs {
+		display: none;
+	}
+
+	.fade {
+		opacity: 1;
+		margin-bottom: 2em;
+	}
+
+	.tab-pane {
+		display: block;
+	}
+
+	.tab-header {
+		margin-bottom: 0.5em;
+		&::after {
+			content: none;
+		}
+	}
+
+	@media screen and (min-width: $size__lg) {		
+		margin: 4em 0 2em 0;
+
 		.nav-tabs {
 			border-color: $color__primary;
 
@@ -46,11 +64,32 @@
 			}
 		}
 
-		.slick-list {
-			width: 100%;
-			margin: auto;
-			border-bottom: none;
+		.tab-content {
+			padding: 1em;
+		}
+		.bar-tabs {
+			display: flex;
+		}
+		.fade {
+			opacity: 0;
 			margin-bottom: 0;
 		}
+		.tab-pane {
+			display: none;
+
+			&.active.show {
+				display: block;
+				opacity: 1;
+			}
+		}
+		.tab-header {
+			display: none;
+		}
+	}
+
+
+
+	@media screen and (min-width: $size__xl) {
+
 	}
 }

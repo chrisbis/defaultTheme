@@ -163,22 +163,27 @@ registerBlockType('cgb/block-tabs-list', {
 
 					<div class="tab-content">
 						<div id="tab1" class="tab-pane fade show active">
+							<h3 class="tab-header">{props.attributes.header1}</h3>
 							<RichText.Content tagName="div" value={props.attributes.content1} />
 						</div>
 
 						<div id="tab2" class="tab-pane fade">
+							<h3 class="tab-header">{props.attributes.header2}</h3>
 							<RichText.Content tagName="div" value={props.attributes.content2} />
 						</div>
 
 						<div id="tab3" class="tab-pane fade">
+							<h3 class="tab-header">{props.attributes.header3}</h3>
 							<RichText.Content tagName="div" value={props.attributes.content3} />
 						</div>
 
 						<div id="tab4" class="tab-pane fade">
+							<h3 class="tab-header">{props.attributes.header4}</h3>
 							<RichText.Content tagName="div" value={props.attributes.content4} />
 						</div>
 
 						<div id="tab5" class="tab-pane fade">
+							<h3 class="tab-header">{props.attributes.header5}</h3>
 							<RichText.Content tagName="div" value={props.attributes.content5} />
 						</div>
 					</div>
