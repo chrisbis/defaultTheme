@@ -126,7 +126,7 @@ registerBlockType('cgb/block-tabs-list', {
 					<ul class="nav nav-tabs bar-tabs">
 						<li class="nav-item">
 							<div class="nav-link-wrapper">
-								<a class="nav-link nav-tab" data-toggle="tab" href="#tab1">
+								<a class="nav-link nav-tab active show" data-toggle="tab" href="#tab1">
 									{props.attributes.header1}
 								</a>
 							</div>
