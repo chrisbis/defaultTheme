@@ -236,12 +236,13 @@ main{margin-top:8.8rem}
 .site-footer .footer-menus .footer-menu{padding-top:0;padding-bottom:0;border-bottom:0}
 .gallery-slider .slick-slide{padding:.2em 1em .2em 0}
 .header-slider.wp-block-gallery figure figcaption{max-width:730px}
+.header-slider.wp-block-gallery figure figcaption a{top:2em}
 }@media screen and (min-width:992px){.main-navigation{font-size:1.1rem}
 .main-navigation .site-title img{max-width:85px}
 .main-navigation.header-big{padding:.4em 0}
 .main-navigation.header-big .site-title img{max-width:100px}
 .main-navigation.header-big .menu-wrapper{margin-top:2.5rem}
-.header-slider.wp-block-gallery figure figcaption{max-width:960px}
+.header-slider.wp-block-gallery figure figcaption{max-width:960px;padding-right:57%}
 #cookie-layer .button,#cookie-layer .text{font-size:1rem}
 .tabs-list{margin:4em 0 2em 0}
 .tabs-list .nav-tabs{border-color:#4c5c68}
@@ -252,5 +253,8 @@ main{margin-top:8.8rem}
 .tabs-list .tab-pane{display:none}
 .tabs-list .tab-pane.active.show{display:block;opacity:1}
 .tabs-list .tab-header{display:none}
-}@media screen and (min-width:1200px){.header-slider.wp-block-gallery figure figcaption{max-width:1140px}
+}@media screen and (min-width:1200px){.header-slider.wp-block-gallery figure figcaption{max-width:1180px;padding-right:63%;padding-left:35px}
+.header-slider.wp-block-gallery figure figcaption::before{width:30%;height:90%}
+.header-slider.wp-block-gallery figure figcaption a{top:3em}
+}@media screen and (min-width:1500px){.header-slider.wp-block-gallery figure figcaption{padding-right:57%}
 }

@@ -292,13 +292,29 @@ $slick-opacity-not-active: 0.25 !default;
                 }
 			}
 			@media screen and (min-width: $size-md) {
-				max-width: 730px;
+                max-width: 730px;
+                a {
+                    top: 2em;
+                }
 			}
 			@media screen and (min-width: $size-lg) {
-				max-width: 960px;
+                max-width: 960px;
+                padding-right: 57%;
 			}
 			@media screen and (min-width: $size-xl) {
-				max-width: 1140px;
+                max-width: 1180px;
+                padding-right: 63%;
+                padding-left: 35px;
+                &::before {
+                    width: 30%;
+                    height: 90%;
+                }
+                a {
+                    top: 3em;
+                }
+            }
+            @media screen and (min-width: 1500px) {
+                padding-right: 57%;
             }
 		}
 	}
