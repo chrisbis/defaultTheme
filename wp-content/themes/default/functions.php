@@ -110,7 +110,7 @@ function all_enqueue_styles()
 {
 	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/includes/bootstrap/css/bootstrap.min.css');
 	wp_enqueue_style('fontawesome', get_template_directory_uri() . '/includes/fontawesome/css/all.min.css');
-	wp_enqueue_style('slick', get_template_directory_uri() . '/includes/slick/slick.css');
+	wp_enqueue_style('slick', get_template_directory_uri() . '/includes/slick/slick.min.css');
 }
 add_action('wp_enqueue_scripts', 'all_enqueue_styles');
 
@@ -196,7 +196,7 @@ if (class_exists('WooCommerce')) {
 
 function all_enqueue_scripts()
 {
-	wp_enqueue_script('bootstrap', get_template_directory_uri() . '/includes/bootstrap/js/bootstrap.bundle.min.js', array('jquery'));
+	wp_enqueue_script('bootstrap', get_template_directory_uri() . '/includes/bootstrap/js/bootstrap.min.js', array('jquery'));
 	wp_enqueue_script('slick', get_template_directory_uri() . '/includes/slick/slick.min.js', array('jquery'));
 	wp_enqueue_script('functions', get_template_directory_uri() . '/js/dest/functions.min.js');
 }
