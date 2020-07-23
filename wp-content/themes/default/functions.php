@@ -217,8 +217,8 @@ function register_header_menu()
 add_action('after_setup_theme', 'register_footer_menu');
 add_action('after_setup_theme', 'register_header_menu');
 
-add_action("publish_post", "create_sitemap");
-add_action("publish_page", "create_sitemap");
+add_action('publish_post', 'create_sitemap');
+add_action('publish_page', 'create_sitemap');
 function create_sitemap()
 {
 	$postsForSitemap = get_posts(array('numberposts' => -1, 'orderby' => 'modified', 'post_type' => array('post', 'page'), 'order' => 'DESC'));
