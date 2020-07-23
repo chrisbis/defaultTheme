@@ -83,8 +83,16 @@ function slick($) {
     arrows: false
   });
   $(".header-slider .blocks-gallery-grid").slick({
-    dots: true,
-    arrows: true
+    dots: false,
+    arrows: false,
+    draggable: false,
+    mobileFirst: true,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        dots: true
+      }
+    }]
   });
 }
 

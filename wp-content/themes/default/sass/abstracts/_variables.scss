@@ -1,62 +1,62 @@
 @import 'mixins/mixins';
 
-$color__primary: #4C5C68;
-$color__secondary: #C5C3C6;
-$color__third: #DCDCDD;
-$color__accent: #1985A1;
+$color-primary: #4C5C68;
+$color-secondary: #C5C3C6;
+$color-third: #DCDCDD;
+$color-accent: #1985A1;
 
-$color__white: #fff;
-$color__black: #000;
+$color-white: #fff;
+$color-black: #000;
 
-$color__text-primary: #000;
-$color__text-secondary: #404040;
-$color__text-third: #fff;
+$color-text-primary: #000;
+$color-text-secondary: #404040;
+$color-text-third: #fff;
 
-$color__background-body: #fff;
-$color__background-screen: #f1f1f1;
-$color__background-hr: #ccc;
-$color__background-button: #e6e6e6;
-$color__background-pre: #eee;
-$color__background-ins: #fff9c0;
+$color-background-body: #fff;
+$color-background-screen: #f1f1f1;
+$color-background-hr: #ccc;
+$color-background-button: #e6e6e6;
+$color-background-pre: #eee;
+$color-background-ins: #fff9c0;
 
-$color__text-screen: #21759b;
-$color__text-input: #666;
-$color__text-input-focus: #111;
-$color__link: $color__black; 
-$color__link-visited: $color__black;
-$color__link-hover: $color__black; 
+$color-text-screen: #21759b;
+$color-text-input: #666;
+$color-text-input-focus: #111;
+$color-link: $color-black; 
+$color-link-visited: $color-black;
+$color-link-hover: $color-black; 
 
-$color__border-button: #ccc #ccc #bbb;
-$color__border-button-hover: #ccc #bbb #aaa;
-$color__border-button-focus: #aaa #bbb #bbb;
-$color__border-input: #ccc;
-$color__border-abbr: #666;
+$color-border-button: #ccc #ccc #bbb;
+$color-border-button-hover: #ccc #bbb #aaa;
+$color-border-button-focus: #aaa #bbb #bbb;
+$color-border-input: #ccc;
+$color-border-abbr: #666;
 
 
 
 
 // stylelint-disable value-keyword-case
-$font__main: Jost, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$font-main: Jost, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 // stylelint-enable value-keyword-case
-$font__code: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-$font__pre: "Courier 10 Pitch", courier, monospace;
-$font__line-height-body: 1.5;
-$font__line-height-pre: 1.6;
+$font-code: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font-pre: "Courier 10 Pitch", courier, monospace;
+$font-line-height-body: 1.5;
+$font-line-height-pre: 1.6;
 
-$font__verybig: 1.8rem;
-$font__big: 1.1rem;
-$font__normal: 1rem;
-$font__small: 0.8rem;
-$font__verysmall: 0.5rem;
+$font-verybig: 1.8rem;
+$font-big: 1.1rem;
+$font-normal: 1rem;
+$font-small: 0.8rem;
+$font-verysmall: 0.5rem;
 
 
 
-$size__site-main: 100%;
-$size__site-sidebar: 25%;
-$size__sm: 576px;
-$size__md: 768px;
-$size__lg: 992px;
-$size__xl: 1200px;
+$size-site-main: 100%;
+$size-site-sidebar: 25%;
+$size-sm: 576px;
+$size-md: 768px;
+$size-lg: 992px;
+$size-xl: 1200px;
 
 
 
@@ -72,6 +72,6 @@ $columns: (
 	9: 11.11%
 );
 
-$columns__margin: 3.8%;
+$columns-margin: 3.8%;
 
 

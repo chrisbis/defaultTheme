@@ -6,16 +6,16 @@
 
 		.nav-link {
 			text-decoration: none;
-			color: $color__black;
+			color: $color-black;
 			border-radius: 2px;
 			border-color: transparent;
 
 			&:hover {
-				border-color: $color__primary;
+				border-color: $color-primary;
 			}
 
 			&.active {
-				color: $color__black;
+				color: $color-black;
 				border-color: transparent;
 				text-decoration: underline;
 			}
@@ -25,7 +25,7 @@
 	.slick-list {
 		width: 90%;
 		margin: auto;
-		border-bottom: 1px solid $color__primary;
+		border-bottom: 1px solid $color-primary;
 		margin-bottom: 0.5em;
 	}
 
@@ -49,16 +49,16 @@
 		}
 	}
 
-	@media screen and (min-width: $size__lg) {		
+	@media screen and (min-width: $size-lg) {		
 		margin: 4em 0 2em 0;
 
 		.nav-tabs {
-			border-color: $color__primary;
+			border-color: $color-primary;
 
 			.nav-link {
 				&.active {
-					color: $color__black;
-					border-color: $color__primary $color__primary $color__white;
+					color: $color-black;
+					border-color: $color-primary $color-primary $color-white;
 					text-decoration: none;
 				}
 			}
@@ -89,7 +89,7 @@
 
 
 
-	@media screen and (min-width: $size__xl) {
+	@media screen and (min-width: $size-xl) {
 
 	}
 }

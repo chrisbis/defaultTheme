@@ -1,6 +1,6 @@
 .site-footer {
-    background-color: $color__white;
-    border-top: 10px solid $color__primary;
+    background-color: $color-white;
+    border-top: 10px solid $color-primary;
     font-size: 0.9rem;
     box-shadow:         0px 1px 10px 0px rgba(0, 0, 0, 0.75);
 
@@ -8,15 +8,15 @@
         .footer-menu {
             padding-top: 1em;
             padding-bottom: 1em;
-            border-bottom: 1px solid $color__primary;
+            border-bottom: 1px solid $color-primary;
             &:last-child {
                 border-bottom: 0;
             }
         }
     }
 
-    @media screen and (min-width: $size__md) {
-        border-top: 2px solid $color__primary;
+    @media screen and (min-width: $size-md) {
+        border-top: 2px solid $color-primary;
 
         .footer-menus {
             padding: 1em 0;
@@ -31,14 +31,14 @@
 
     .site-info {
         padding: 1em;
-        color: $color__text-third;
-        background-color: $color__primary;
+        color: $color-text-third;
+        background-color: $color-primary;
         // text-align: center;
-        font-size: $font__small;
+        font-size: $font-small;
     }
 
     a {
-        color: $color__text-primary;
+        color: $color-text-primary;
         text-decoration: none;
         display: block;
         &:hover {

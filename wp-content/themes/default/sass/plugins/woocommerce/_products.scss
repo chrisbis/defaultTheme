@@ -25,7 +25,7 @@ ul.products {
 
 			@include column-width(3);
 			float: left;
-			margin-right: $columns__margin;
+			margin-right: $columns-margin;
 
 			&.first {
 				clear: both;

@@ -3,8 +3,8 @@ $menuHeight: 5rem;
 .main-navigation {
 	display: block;
 	width: 100%;
-	background-color: $color__white;
-	border-bottom: 3px solid $color__primary;
+	background-color: $color-white;
+	border-bottom: 3px solid $color-primary;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -72,7 +72,7 @@ $menuHeight: 5rem;
 		$widthHeight: 45px;
 		$minusWidth: 10px;
 
-		background-color: $color__primary;
+		background-color: $color-primary;
 		margin: 0;
 		padding: 0;
 		border: none;
@@ -81,10 +81,10 @@ $menuHeight: 5rem;
 
 		// &:focus {
 		// 	outline: none;
-		// 	background-color: $color__secondary;
+		// 	background-color: $color-secondary;
 
 		// 	.line {
-		// 		background-color: $color__black;
+		// 		background-color: $color-black;
 		// 	}
 		// }
 
@@ -103,7 +103,7 @@ $menuHeight: 5rem;
 			left: $minusWidth / 2;
 			height: 4px;
 			width: $widthHeight - $minusWidth;
-			background: $color__white;
+			background: $color-white;
 			border-radius: 2px;
 			transition: 0.9s;
 			transform-origin: center;
@@ -144,10 +144,10 @@ $menuHeight: 5rem;
 		top: $menuHeight - 0.2rem;
 		left: 0;
 		z-index: 2;
-		background-color: $color__white;
-		font-size: $font__big;
-		border-bottom: 1px solid $color__primary;
-		border-top: 3px solid $color__primary;
+		background-color: $color-white;
+		font-size: $font-big;
+		border-bottom: 1px solid $color-primary;
+		border-top: 3px solid $color-primary;
 		overflow-y: hidden;
 		box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.9);
 		li {
@@ -178,14 +178,14 @@ $menuHeight: 5rem;
 	display: block;
 }
 
-@media screen and (min-width: $size__md) {
+@media screen and (min-width: $size-md) {
 	.menu-toggle {
 		display: none;
 	}
 
 	.main-navigation {
 		height: auto;
-		font-size: $font__normal;
+		font-size: $font-normal;
 		transition: all 0.5s;
 		padding: 0.2em;
 		box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
@@ -269,9 +269,9 @@ $menuHeight: 5rem;
 	}
 }
 
-@media screen and (min-width: $size__lg) {
+@media screen and (min-width: $size-lg) {
 	.main-navigation {
-		font-size: $font__big;
+		font-size: $font-big;
 
 		.site-title {
 			img {

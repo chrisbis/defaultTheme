@@ -2,17 +2,17 @@ html {
 	font-size: 15px;
 }
 body {
-	background: $color__background-body; // Fallback for when there is no custom background color defined.
+	background: $color-background-body; // Fallback for when there is no custom background color defined.
 }
 
 // Start
 main {
 	transition: all 0.5s;
 	margin-top: 8.8rem;
-	@media screen and (min-width: $size__sm) {
+	@media screen and (min-width: $size-sm) {
 		margin-top: 8.8rem;
 	}
-	@media screen and (min-width: $size__md) {
+	@media screen and (min-width: $size-md) {
 		&.header-big {
 			margin-top: 9.6rem;
 		}

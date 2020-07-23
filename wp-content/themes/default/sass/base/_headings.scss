@@ -8,20 +8,20 @@ h6 {
 	position: relative;
 	display: inline-block;
 	margin-bottom: 1em;
-	font-size: $font__big;
+	font-size: $font-big;
 
-	&:after {
+	&::after {
 		content: "";
 		display: inline-block;
-		border-bottom: 2px solid $color__primary;
+		border-bottom: 2px solid $color-primary;
 		width: 85%;
 		position: absolute;
 		bottom: -5px;
 		left: 0;
 	}
 
-	@media screen and (min-width: $size__sm) {
-		font-size: $font__verybig;
+	@media screen and (min-width: $size-sm) {
+		font-size: $font-verybig;
 	}
 }
 

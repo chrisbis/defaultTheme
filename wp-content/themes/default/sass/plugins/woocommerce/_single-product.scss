@@ -7,7 +7,7 @@
 			position: relative;
 			float: left;
 
-			.woocommerce-product-gallery__trigger {
+			.woocommerce-product-gallery-trigger {
 				position: absolute;
 				top: 2em;
 				right: 1em;
@@ -77,10 +77,10 @@
 	}
 
 	&.in-stock {
-		color: $woocommerce__color-success;
+		color: $woocommerce-color-success;
 	}
 
 	&.out-of-stock {
-		color: $woocommerce__color-error;
+		color: $woocommerce-color-error;
 	}
 }

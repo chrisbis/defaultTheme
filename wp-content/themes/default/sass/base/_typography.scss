@@ -4,10 +4,10 @@ input,
 select,
 optgroup,
 textarea {
-	color: $color__text-primary;
-	font-family: $font__main;
+	color: $color-text-primary;
+	font-family: $font-main;
 	font-size: 1rem;
-	line-height: $font__line-height-body;
+	line-height: $font-line-height-body;
 }
 
 @font-face {
