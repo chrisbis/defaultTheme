@@ -171,8 +171,8 @@ main{-webkit-transition:all .5s;transition:all .5s;margin-top:8.8rem}
 .slick-dots li button:hover:before,.slick-dots li button:focus:before{opacity:1}
 .slick-dots li button:before{position:absolute;top:0;left:0;content:"";width:13px;height:13px;border-radius:2em;font-size:6px;line-height:20px;text-align:center;background-color:#000;opacity:.25;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .slick-dots li.slick-active button:before{color:#000;opacity:1}
-.slider,.gallery-slider,.product-slider,.product-slider-nav{display:block;-ms-flex-wrap:nowrap;flex-wrap:nowrap;margin-bottom:2em}
-.slider .blocks-gallery-item,.gallery-slider .blocks-gallery-item,.product-slider .blocks-gallery-item,.product-slider-nav .blocks-gallery-item{margin:0 !important}
+.slider,.gallery-slider,.product-slider,.product-slider-nav,.header-slider{display:block;-ms-flex-wrap:nowrap;flex-wrap:nowrap;margin-bottom:2em}
+.slider .blocks-gallery-item,.gallery-slider .blocks-gallery-item,.product-slider .blocks-gallery-item,.product-slider-nav .blocks-gallery-item,.header-slider .blocks-gallery-item{margin:0 !important}
 .product-slider{margin-bottom:2px}
 .gallery-slider{margin-top:2.5em}
 .gallery-slider .slick-prev,.gallery-slider .slick-next{left:auto;top:-18px;height:auto;background-color:transparent}
@@ -183,6 +183,9 @@ main{-webkit-transition:all .5s;transition:all .5s;margin-top:8.8rem}
 .gallery-slider .slick-prev::after{content:''}
 .gallery-slider .slick-next{right:0}
 .gallery-slider .slick-slide{padding:.2em 0}
+.header-slider figure{position:relative}
+.header-slider figure figcaption{color:#fff;position:absolute;top:30%;left:30px;font-size:1.1rem}
+.header-slider figure figcaption strong{font-size:1.8rem;margin-bottom:1em}
 #cookie-layer{display:none;position:fixed;width:100%;height:100%;top:0;left:0;z-index:9999;background:rgba(0,0,0,0.8)}
 #cookie-layer .text{background-color:#c5c3c6;padding:.7em 1em;text-align:center;font-size:.8rem;position:absolute;width:100%;bottom:0;left:0}
 #cookie-layer .button{margin:0;font-size:.8rem}

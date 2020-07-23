@@ -81,35 +81,11 @@ function slick($) {
     focusOnSelect: true,
     dots: false,
     arrows: false
-  }); // $('.bar-tabs').slick({
-  // 	mobileFirst: true,
-  // 	responsive: [
-  // 		{
-  // 			breakpoint: 0,
-  // 			settings: {
-  // 				slidesToShow: 2,
-  // 				slidesToScroll: 1,
-  // 				draggable: false,
-  // 				arrows: true,
-  // 				touchMove: false,
-  // 			}
-  // 		},
-  // 		{
-  // 			breakpoint: 768,
-  // 			settings: {
-  // 				slidesToShow: 3,
-  // 				slidesToScroll: 1,
-  // 				draggable: false,
-  // 				arrows: true,
-  // 				touchMove: false,
-  // 			}
-  // 		},
-  // 		{
-  // 			breakpoint: 1200,
-  // 			settings: 'unslick'
-  // 		}
-  // 	]
-  // });
+  });
+  $(".header-slider .blocks-gallery-grid").slick({
+    dots: true,
+    arrows: true
+  });
 }
 
 function cookieLayer($) {
