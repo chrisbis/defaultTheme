@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>http://localhost/petticap/datenschutz/</loc>
+		<lastmod>2020-07-29</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://localhost/petticap/impressum/</loc>
+		<lastmod>2020-07-29</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
 		<loc>http://localhost/petticap/</loc>
+		<lastmod>2020-07-29</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://localhost/petticap/shop/</loc>
 		<lastmod>2020-07-29</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
@@ -28,21 +43,6 @@
 	<url>
 		<loc>http://localhost/petticap/bezahlmoeglichkeiten/</loc>
 		<lastmod>2020-07-29</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>http://localhost/petticap/datenschutz/</loc>
-		<lastmod>2020-07-22</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>http://localhost/petticap/impressum/</loc>
-		<lastmod>2020-07-22</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>http://localhost/petticap/shop/</loc>
-		<lastmod>2020-06-19</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>
