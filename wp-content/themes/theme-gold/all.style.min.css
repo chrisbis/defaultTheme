@@ -46,9 +46,10 @@ body,button,input,select,optgroup,textarea{color:#000;font-family:Jost,BlinkMacS
 @font-face{font-family:OpenSans;src:url("fonts/OpenSans-Regular.ttf");font-weight:normal}
 h1,h2,h3,h4,h5,h6{clear:both;position:relative;display:inline-block;margin-bottom:1em;font-size:1.1rem}
 h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{content:"";display:inline-block;border-bottom:2px solid #4c5c68;width:85%;position:absolute;bottom:-5px;left:0}
-h1{margin-top:0}
+h1{margin-top:0;padding-top:7rem}
 h2{padding-top:7rem}
 section:first-child h1{padding-top:7rem}
+.entry-title{padding-top:7rem}
 p{margin-bottom:1.5em}
 dfn,cite,em,i{font-style:italic}
 blockquote{margin:0 1.5em}
@@ -103,8 +104,9 @@ label{width:100%;font-size:1.1rem}
 form p{margin-bottom:.7em}
 html{font-size:15px}
 body{background:#fff}
-main{-webkit-transition:all .5s;transition:all .5s;margin-top:8.8rem}
+main{-webkit-transition:all .5s;transition:all .5s;margin-top:4.8rem}
 .entry-content>figure{margin-top:-4rem}
+.full-width{width:99vw;position:relative;margin-left:-50vw;left:50%;overflow:hidden}
 .main-navigation{display:block;width:100%;background-color:#fff;border-bottom:3px solid #4c5c68;position:fixed;left:0;top:0;z-index:999;height:5rem}
 .main-navigation .container,.main-navigation .row,.main-navigation .col{height:100%}
 .main-navigation a{text-decoration:none}
@@ -193,12 +195,11 @@ main{-webkit-transition:all .5s;transition:all .5s;margin-top:8.8rem}
 #primary[tabindex="-1"]:focus{outline:0}
 @media screen and (min-width:375px){.header-slider.wp-block-gallery figure figcaption{padding-top:3em}
 }@media screen and (min-width:576px){h1,h2,h3,h4,h5,h6{font-size:1.8rem}
-main{margin-top:8.8rem}
 .header-slider.wp-block-gallery figure figcaption{top:3em;font-size:1.1rem;padding-right:50%;padding-top:2em;padding-left:25px}
 .header-slider.wp-block-gallery figure figcaption::before{width:50%;height:77%}
 .header-slider.wp-block-gallery figure figcaption a{top:3em}
 .header-slider.wp-block-gallery figure figcaption strong{font-size:1.8rem}
-}@media screen and (min-width:768px){main.header-big{margin-top:9.6rem}
+}@media screen and (min-width:768px){main.header-big{margin-top:5.6rem}
 .menu-toggle{display:none}
 .main-navigation{height:auto;font-size:1rem;-webkit-transition:all .5s;transition:all .5s;padding:.2em;-webkit-box-shadow:0 1px 10px 0 rgba(0,0,0,0.75);box-shadow:0 1px 10px 0 rgba(0,0,0,0.75)}
 .main-navigation ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}

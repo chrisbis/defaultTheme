@@ -33,5 +33,6 @@ get_header();
 		?>
 	</main><!-- #main -->
 
+</div> <!-- Close container -->
 <?php
 get_footer();
