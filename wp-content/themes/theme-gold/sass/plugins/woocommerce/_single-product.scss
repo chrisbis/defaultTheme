@@ -1,3 +1,13 @@
+.wc-block-featured-product {
+	h2 {
+		&::after {
+			content: none;
+		}
+	}
+	// .wc-block-featured-product__title, .wc-block-featured-product__description, .wc-block-featured-product__price, .wc-block-featured-product__price a {
+	// 	color: $color-black;		
+	// }
+}
 .single-product {
 
 	div.product {
@@ -77,10 +87,14 @@
 	}
 
 	&.in-stock {
-		color: $woocommerce-color-success;
+		color: $color-success;
 	}
 
 	&.out-of-stock {
-		color: $woocommerce-color-error;
+		color: $color-error;
 	}
+}
+
+.product {
+	margin-bottom: 3em;
 }

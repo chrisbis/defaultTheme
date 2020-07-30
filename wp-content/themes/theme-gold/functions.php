@@ -235,6 +235,7 @@ function create_sitemap()
 	fclose($fp);
 }
 
+// Woocommerce
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 add_action( 'init', 'woo_remove_wc_breadcrumbs' );
 function woo_remove_wc_breadcrumbs() {
