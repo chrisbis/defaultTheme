@@ -118,7 +118,7 @@ if ( ! function_exists( 'theme_gold_woocommerce_wrapper_before' ) ) {
 	 */
 	function theme_gold_woocommerce_wrapper_before() {
 		?>
-			<main id="primary" class="site-main">
+			<main id="primary" class="site-main main header-big">
 		<?php
 	}
 }
