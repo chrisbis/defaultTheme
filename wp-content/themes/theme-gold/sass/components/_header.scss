@@ -95,7 +95,7 @@ $menuHeight: 5rem;
 			position: relative;
 			margin-left: auto;
 			margin-right: auto;
-			border-radius: 0.5em;
+			border-radius: $border-radius;
 		}
 
 		.line {
@@ -104,7 +104,7 @@ $menuHeight: 5rem;
 			height: 4px;
 			width: $widthHeight - $minusWidth;
 			background: $color-white;
-			border-radius: 0.5em;
+			border-radius: $border-radius;
 			transition: 0.9s;
 			transform-origin: center;
 

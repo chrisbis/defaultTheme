@@ -99,7 +99,7 @@
 }
 
 .wc-block-featured-product {
-	border-radius: 0.5em;
+	border-radius: $border-radius;
 
 	h2 {
 		&::after {
@@ -108,7 +108,7 @@
 	}
 
 	&.has-background-dim:before {
-		border-radius: 0.5em;
+		border-radius: $border-radius;
 	}
 }
 

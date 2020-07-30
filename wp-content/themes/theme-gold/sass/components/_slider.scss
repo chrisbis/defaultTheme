@@ -123,7 +123,7 @@ $slick-opacity-not-active: 0.25 !default;
 				content: $slick-dot-character;
 				width: 13px;
 				height: 13px;
-				border-radius: 0.5em;
+				border-radius: $border-radius;
 				font-size: $slick-dot-size;
 				line-height: 20px;
 				text-align: center;
@@ -240,7 +240,7 @@ $slick-opacity-not-active: 0.25 !default;
 				position: absolute;
 				top: 0;
 				left: 0;
-				border-radius: 0.5em;
+				border-radius: $border-radius;
 				background-color: transparentize($color: $color-black, $amount: 0.6);
 			}
 
@@ -255,7 +255,7 @@ $slick-opacity-not-active: 0.25 !default;
                 top: 2em;
                 z-index: 2;
 
-				border-radius: 0.5em;
+				border-radius: $border-radius;
 				background-color: $color-primary;
 				color: $color-white;
 				padding: 0.6em 1em 0.5em 1em;
