@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main main">
+	<main id="primary" class="site-main main header-big">
 		<?php if (!is_page('datenschutz')) : ?>
 			<div id="cookie-layer">
 				<div class="text">
@@ -33,5 +33,6 @@ get_header();
 		?>
 	</main><!-- #main -->
 
+</div> <!-- Close container -->
 <?php
 get_footer();
