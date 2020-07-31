@@ -304,6 +304,7 @@ ul.products.columns-6 li.product{width:13.4933333333%}
 .header-slider.wp-block-gallery figure figcaption a{top:3em}
 .header-slider.wp-block-gallery figure figcaption strong{font-size:1.8rem}
 .product input{width:50%;max-width:80px}
+.woocommerce-cart-form .remove .text{display:none}
 }@media screen and (min-width:768px){main.header-big{margin-top:5.6rem}
 .menu-toggle{display:none}
 .main-navigation{height:auto;font-size:1rem;-webkit-transition:all .5s;transition:all .5s;padding:.2em;-webkit-box-shadow:0 1px 10px 0 rgba(0,0,0,0.75);box-shadow:0 1px 10px 0 rgba(0,0,0,0.75)}

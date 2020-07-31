@@ -7,4 +7,12 @@
 			font-size: $font-normal;
 		}
 	}
+
+	@media screen and (min-width: $size-sm) {
+		.remove {
+			.text {
+				display: none;
+			}
+		}
+	}
 }
