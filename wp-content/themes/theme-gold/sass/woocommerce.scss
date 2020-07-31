@@ -23,6 +23,11 @@ WooCommerce styles override
 @import "plugins/woocommerce/single-product";
 
 /**
+ * Cart
+ */
+ @import "plugins/woocommerce/cart";
+
+/**
  * Checkout
  */
 @import "plugins/woocommerce/checkout";

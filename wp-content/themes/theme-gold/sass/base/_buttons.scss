@@ -4,7 +4,8 @@ input[type="reset"],
 input[type="submit"],
 .wp-block-button__link.product-teaser a,
 input[type="submit"],
-.wp-block-button__link {
+.wp-block-button__link,
+.button {
 	display: inline-block;
 	border-radius: $border-radius;
 	background-color: $color-primary;

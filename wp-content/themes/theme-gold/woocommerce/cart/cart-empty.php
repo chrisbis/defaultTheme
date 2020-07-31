@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Empty cart page
  *
@@ -15,17 +16,22 @@
  * @version 3.5.0
  */
 
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 /*
  * @hooked wc_empty_cart_message - 10
  */
-do_action( 'woocommerce_cart_is_empty' );
+do_action('woocommerce_cart_is_empty'); ?>
 
-if ( wc_get_page_id( 'shop' ) > 0 ) : ?>
-	<p class="return-to-shop">
-		<a class="button wc-backward" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-			<?php esc_html_e( 'Zurück', 'theme-gold' ); ?>
-		</a>
-	</p>
-<?php endif; ?>
+<p class="return-to-shop">
+	<a class="button wc-backward" href="<?php echo esc_url(home_url('/product/petticap')); ?>">
+		<?php esc_html_e('Zurück zum Produkt', 'theme-gold'); ?>
+	</a>
+</p>
+
+
+<p>
+	<a class="button wc-backward" href="<?php echo esc_url(home_url('/')); ?>">
+		<?php esc_html_e('Zur Startseite', 'theme-gold'); ?>
+	</a>
+</p>

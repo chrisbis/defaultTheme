@@ -1,3 +1,9 @@
+.woocommerce {
+	h2 {
+		padding-top: 2rem;
+	}
+}
+
 /**
  * Header cart
  */
@@ -252,7 +258,9 @@ p.no-comments {
 }
 
 .woocommerce-notices-wrapper {
-	padding-top: 2em;
+	div {
+		padding: 0.5em 1em;		
+	}
 	a {
 		padding-right: 1em;
 	}
@@ -287,9 +295,9 @@ p.no-comments {
 }
 
 @media screen and (min-width: $size-sm) {
-	.woocommerce-notices-wrapper {
-		a {
-			padding: 0 1em;
-		}
-	}
+	// .woocommerce-notices-wrapper {
+	// 	a {
+	// 		padding: 0 1em;
+	// 	}
+	// }
 }

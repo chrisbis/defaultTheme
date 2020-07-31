@@ -1,0 +1,10 @@
+.woocommerce-cart-form {
+	.remove {
+		font-size: $font-verybig;
+		text-decoration: none;
+		
+		.text {
+			font-size: $font-normal;
+		}
+	}
+}

@@ -15,13 +15,8 @@ table.shop_table_responsive {
 
 		td {
 			display: block;
-			text-align: right;
+			text-align: left;
 			clear: both;
-
-			&::before {
-				content: attr(data-title) ": ";
-				float: left;
-			}
 
 			&.product-remove {
 
