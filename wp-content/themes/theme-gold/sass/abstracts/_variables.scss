@@ -1,7 +1,7 @@
 @import 'mixins/mixins';
 
-$color-primary: #4C5C68;
-$color-secondary: #C5C3C6;
+$color-primary: #329A45;
+$color-secondary: #4C5C68;
 $color-third: #DCDCDD;
 $color-accent: #1985A1;
 
@@ -40,13 +40,16 @@ $color-border-abbr: #666;
 
 
 // stylelint-disable value-keyword-case
-$font-main: Jost, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$font-main: Quattrocento, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$font-headings: Montserrat, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
 // stylelint-enable value-keyword-case
 $font-code: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font-pre: "Courier 10 Pitch", courier, monospace;
 $font-line-height-body: 1.5;
 $font-line-height-pre: 1.6;
 
+$font-veryverybig: 2.2rem;
 $font-verybig: 1.8rem;
 $font-big: 1.1rem;
 $font-normal: 1rem;

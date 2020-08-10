@@ -215,34 +215,23 @@ $slick-opacity-not-active: 0.25 !default;
 
 		figcaption {        
 			display: block;
-			color: $color-white;
+			color: $color-black;
 			margin: 0;
 			font-size: $font-normal;
 			background: transparent;
 			text-align: left;
 			padding-top: $padding-top;
             z-index: 1;
-            top: $top;
+			top: $top;
+			right: 20em;
+			font-family: $font-headings;
+			font-weight: bold;
 
-			width: 100%;
+			width: auto;
 			padding-right: $padding-right-width;
 			padding-left: 15px;
 			margin-right: auto;
 			margin-left: auto;
-
-
-			&::before {
-				z-index: -1;
-				content: "";
-				display: block;
-				width: $text-width;
-				height: $height;
-				position: absolute;
-				top: 0;
-				left: 0;
-				border-radius: $border-radius;
-				background-color: transparentize($color: $color-black, $amount: 0.6);
-			}
 
 			strong {
 				font-size: $font-big;
@@ -275,15 +264,10 @@ $slick-opacity-not-active: 0.25 !default;
 				padding-top: 3em; 
             }
             @media screen and (min-width: $size-sm) {
-                top: 3em;
+                top: 2em;
                 font-size: $font-big;
-                padding-right: 50%;
                 padding-top: 2em;
                 padding-left: 25px;
-                &::before {
-                    width: 50%;
-                    height: 77%;
-                }
                 a {
                     top: 3em;
                 }
@@ -292,32 +276,14 @@ $slick-opacity-not-active: 0.25 !default;
                 }
 			}
 			@media screen and (min-width: $size-md) {
-                max-width: 730px;
                 a {
                     top: 2em;
                 }
 			}
-			@media screen and (min-width: $size-lg) {
-                max-width: 960px;
-                padding-right: 57%;
-			}
 			@media screen and (min-width: $size-xl) {
-                max-width: 1180px;
-                padding-right: 63%;
-                padding-left: 35px;
-                &::before {
-                    width: 30%;
-                    height: 90%;
-                }
                 a {
                     top: 3em;
                 }
-            }
-            @media screen and (min-width: 1500px) {
-                padding-right: 57%;
-            }
-            @media screen and (min-width: 1700px) {
-                padding-right: 49%;
             }
 		}
 	}

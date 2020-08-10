@@ -45,22 +45,13 @@
 							?>	
 						</div>
 						<div class="col-md-4 footer-menu menu-right">
-							<a href="tel:+4915114217370">
+							<a href="tel:+YY YYYY">
 								<i class="fa fa-phone"></i>
-								+49 151 14217370
+								+YY YYYY
 							</a>
-							<a href="mailto:anita.staab@petticap.com">
+							<a href="mailto:yy@yyyyy.de">
 								<i class="fa fa-envelope"></i>
-								anita.staab@petticap.com
-							</a>
-							<br>
-							<a href="https://www.instagram.com/petticap/" target="_blank" rel="noopener noreferrer">
-								<i class="fab fa-instagram"></i>
-								PettiCap on Instagram
-							</a>
-							<a href="https://www.facebook.com/petticap.de" target="_blank" rel="noopener noreferrer">
-								<i class="fab fa-facebook-square"></i>
-								PettiCap on Facebook
+								yy@yyyyy.de
 							</a>
 						</div>
 					</div>
@@ -70,8 +61,7 @@
 			<div class="container">		
 				<i class="fa fa-copyright"></i>
 				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( ' 2020 by PettiCap', 'theme-gold' ), '' );
+				printf( esc_html__( ' 2020 by Augsburger Genuss Touren', 'theme-gold' ), '' );
 				?>
 			</div>
 		</div><!-- .site-info -->
