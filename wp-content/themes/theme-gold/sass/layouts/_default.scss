@@ -6,22 +6,30 @@ body {
 }
 
 // Start
+$header-size: 4.8rem;
 main {
 	transition: all 0.5s;
-	margin-top: 4.8rem;
-	@media screen and (min-width: $size-sm) {
-		// margin-top: 8.8rem;
-	}
+	margin-top: $header-size;
 	@media screen and (min-width: $size-md) {
 		&.header-big {
-			margin-top: 5.6rem;
+			margin-top: $header-size + 0.8rem;
+		}
+	}
+	@media screen and (min-width: $size-lg) {
+		&.header-big {
+			margin-top: $header-size + 1.8rem;
+		}
+	}
+	@media screen and (min-width: $size-xl) {
+		&.header-big {
+			margin-top: $header-size + 2.8rem;
 		}
 	}
 }
 
 .entry-content {
 	> figure {
-		margin-top: -4rem;
+		margin-top: -6rem;
 	}
 }
 

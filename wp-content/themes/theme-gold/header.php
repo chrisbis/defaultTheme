@@ -30,14 +30,14 @@
 			<nav id="site-navigation" class="main-navigation">
 				<div class="container">
 					<div class="row">
-						<div class="col col-5 col-sm-3 col-md-3">
+						<div class="col col-8 col-sm-3">
 							<div class="site-title">
 								<?php
 								the_custom_logo();
 								?>
 							</div>
 						</div>
-						<div class="col col-7 col-sm-9 col-md-9 menu-row">
+						<div class="col col-4 col-sm-9 menu-row">
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" title="<?php esc_html_e('Toggle Menu', 'theme-gold'); ?>">
 								<div class="icon">
 									<div class="line"></div>

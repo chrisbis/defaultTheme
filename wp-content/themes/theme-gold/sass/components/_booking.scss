@@ -1,0 +1,19 @@
+#bookingKitContainer {
+    font-family: $font-headings !important;
+    font-weight: bold !important;
+
+    h1, h2, h3, h4 {
+        &::after {
+            content: none;
+        }
+    }
+    .bk-sale-header,
+    #bk-ev-grid_ct img,
+    .bk-header-language,
+    .bk-events-footer {
+        display: none !important;
+    }
+
+    
+}
+
