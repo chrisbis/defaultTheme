@@ -309,17 +309,17 @@
     },
     {
         "name": "vendidero/woocommerce-germanized-dhl",
-        "version": "v1.2.8",
-        "version_normalized": "1.2.8.0",
+        "version": "v1.2.9",
+        "version_normalized": "1.2.9.0",
         "source": {
             "type": "git",
             "url": "https://github.com/vendidero/woocommerce-germanized-dhl.git",
-            "reference": "ef4bbdae448d3b7720e6e1871201a6cacf8c91ef"
+            "reference": "379b4216fdb216a09ef1c2a1893cfa90b57125ea"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/vendidero/woocommerce-germanized-dhl/zipball/ef4bbdae448d3b7720e6e1871201a6cacf8c91ef",
-            "reference": "ef4bbdae448d3b7720e6e1871201a6cacf8c91ef",
+            "url": "https://api.github.com/repos/vendidero/woocommerce-germanized-dhl/zipball/379b4216fdb216a09ef1c2a1893cfa90b57125ea",
+            "reference": "379b4216fdb216a09ef1c2a1893cfa90b57125ea",
             "shasum": ""
         },
         "require": {
@@ -329,7 +329,7 @@
             "phpunit/phpunit": "6.5.14",
             "woocommerce/woocommerce-sniffs": "0.0.6"
         },
-        "time": "2020-07-01T08:22:39+00:00",
+        "time": "2020-08-05T12:19:10+00:00",
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "autoload": {
@@ -353,23 +353,23 @@
         "description": "The Germanized DHL implementation.",
         "homepage": "https://github.com/vendidero/woocommerce-germanized-dhl",
         "support": {
-            "source": "https://github.com/vendidero/woocommerce-germanized-dhl/tree/v1.2.8",
+            "source": "https://github.com/vendidero/woocommerce-germanized-dhl/tree/v1.2.9",
             "issues": "https://github.com/vendidero/woocommerce-germanized-dhl/issues"
         }
     },
     {
         "name": "vendidero/woocommerce-germanized-shipments",
-        "version": "v1.2.9",
-        "version_normalized": "1.2.9.0",
+        "version": "v1.2.10",
+        "version_normalized": "1.2.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/vendidero/woocommerce-germanized-shipments.git",
-            "reference": "6b46603b784c547cddde684146b64eb9202538af"
+            "reference": "151ba0264d935203d59617008a3572e50a39b33c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/vendidero/woocommerce-germanized-shipments/zipball/6b46603b784c547cddde684146b64eb9202538af",
-            "reference": "6b46603b784c547cddde684146b64eb9202538af",
+            "url": "https://api.github.com/repos/vendidero/woocommerce-germanized-shipments/zipball/151ba0264d935203d59617008a3572e50a39b33c",
+            "reference": "151ba0264d935203d59617008a3572e50a39b33c",
             "shasum": ""
         },
         "require": {
@@ -380,7 +380,7 @@
             "phpunit/phpunit": "6.5.14",
             "woocommerce/woocommerce-sniffs": "0.0.6"
         },
-        "time": "2020-07-01T08:21:40+00:00",
+        "time": "2020-08-05T12:18:02+00:00",
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "autoload": {
@@ -402,7 +402,7 @@
         "description": "The Germanized Shipments implementation.",
         "homepage": "https://github.com/vendidero/woocommerce-germanized-shipments",
         "support": {
-            "source": "https://github.com/vendidero/woocommerce-germanized-shipments/tree/v1.2.9",
+            "source": "https://github.com/vendidero/woocommerce-germanized-shipments/tree/v1.2.10",
             "issues": "https://github.com/vendidero/woocommerce-germanized-shipments/issues"
         }
     },

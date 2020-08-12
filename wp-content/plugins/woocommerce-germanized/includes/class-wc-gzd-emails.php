@@ -640,9 +640,7 @@ class WC_GZD_Emails {
 			$is_differential_taxed = false;
 
 			if ( ! empty( $items ) ) {
-
 				foreach ( $items as $item ) {
-
 					$_product = $item->get_product();
 
 					if ( ! $_product ) {
@@ -677,7 +675,7 @@ class WC_GZD_Emails {
 				 */
 				$notice = apply_filters( 'woocommerce_gzd_differential_taxation_notice_text_email', $mark . wc_gzd_get_differential_taxation_notice_text() );
 
-				echo wpautop( '<div class="gzd-differential-taxation-notice-email">' . $notice . '</div>' );
+				echo '<div class="gzd-differential-taxation-notice-email">' . wpautop( $notice ) . '</div>';
 			}
 
 			if ( $this->is_order_confirmation_email( $type->id ) ) {
@@ -693,7 +691,7 @@ class WC_GZD_Emails {
 					 * @since 1.0.0
 					 *
 					 */
-					echo wpautop( apply_filters( 'woocommerce_gzd_order_confirmation_digital_notice', '<div class="gzd-digital-notice-text">' . $text . '</div>', $order ) );
+					echo apply_filters( 'woocommerce_gzd_order_confirmation_digital_notice', '<div class="gzd-digital-notice-text">' . wpautop( $text ) . '</div>', $order );
 				}
 
 				if ( $is_service && $text = wc_gzd_get_legal_text_service_email_notice() ) {
@@ -707,7 +705,7 @@ class WC_GZD_Emails {
 					 * @since 1.0.0
 					 *
 					 */
-					echo wpautop( apply_filters( 'woocommerce_gzd_order_confirmation_service_notice', '<div class="gzd-service-notice-text">' . $text . '</div>', $order ) );
+					echo apply_filters( 'woocommerce_gzd_order_confirmation_service_notice', '<div class="gzd-service-notice-text">' . wpautop( $text ) . '</div>', $order );
 				}
 			}
 		}
@@ -1035,9 +1033,25 @@ class WC_GZD_Emails {
 			$template = 'emails/plain/email-footer-attachment.php';
 		}
 
-		wc_get_template( $template, array(
-			'post_attach' => get_post( $page_id ),
-		) );
+		global $post;
+
+		$reset_post = $post;
+		$post       = get_post( $page_id );
+
+		if ( $post ) {
+			setup_postdata( $post );
+
+			wc_get_template( $template, array(
+				'post_attach' => $post,
+			) );
+
+			/**
+			 * Reset post data to keep global loop valid.
+			 */
+			if ( $reset_post ) {
+				setup_postdata( $reset_post );
+			}
+		}
 
 		add_shortcode( 'revocation_form', 'WC_GZD_Shortcodes::revocation_form' );
 	}

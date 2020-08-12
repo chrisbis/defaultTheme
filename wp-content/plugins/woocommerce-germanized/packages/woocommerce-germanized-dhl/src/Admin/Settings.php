@@ -444,11 +444,18 @@ class Settings {
 				'default'           => '0.5',
 				'css'               => 'max-width: 60px;',
 				'class'             => 'wc_input_decimal',
-			),
+			)
 		);
 
 		if ( ! $for_shipping_method ) {
 			$settings = array_merge( $settings, array(
+				array(
+					'title' 	        => _x( 'Force email', 'dhl', 'woocommerce-germanized' ),
+					'desc' 		        => _x( 'Force transferring customer email to DHL.', 'dhl', 'woocommerce-germanized' ) . '<div class="wc-gzd-additional-desc">' . _x( 'By default the customer email address is only transferred in case explicit consent has been given via a checkbox during checkout. You may force to transfer the customer email address during label creation to make sure your customers receive email notifications by DHL. Make sure to check your privacy policy and seek advice by a lawyer in case of doubt.', 'dhl', 'woocommerce-germanized' ) . '</div>',
+					'id' 		        => 'woocommerce_gzd_dhl_label_force_email_transfer',
+					'default'	        => 'no',
+					'type' 		        => 'gzd_toggle',
+				),
 				array(
 					'title' 	        => _x( 'Street number', 'dhl', 'woocommerce-germanized' ),
 					'desc' 		        => _x( 'Force existence of a street number within the first address field during checkout for EU countries.', 'dhl', 'woocommerce-germanized' ),
@@ -1111,7 +1118,7 @@ class Settings {
 				'type'              => 'text',
 				'id' 		        => 'woocommerce_gzd_dhl_parcel_pickup_map_api_key',
 				'custom_attributes'	=> array( 'data-show_if_woocommerce_gzd_dhl_parcel_pickup_map_enable' => '' ),
-				'desc'              => '<div class="wc-gzd-additional-desc">' . sprintf( _x( 'To integrate a map within your checkout you\'ll need a valid API key for Google Maps. You may %s.', 'dhl', 'woocommerce-germanized' ), '<a href="" target="_blank">' . _x(  'retrieve a new one', 'dhl', 'woocommerce-germanized' ) . '</a>' ) . '</div>',
+				'desc'              => '<div class="wc-gzd-additional-desc">' . sprintf( _x( 'To integrate a map within your checkout you\'ll need a valid API key for Google Maps. You may %s.', 'dhl', 'woocommerce-germanized' ), '<a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">' . _x(  'retrieve a new one', 'dhl', 'woocommerce-germanized' ) . '</a>' ) . '</div>',
 				'default'           => ''
 			),
 
