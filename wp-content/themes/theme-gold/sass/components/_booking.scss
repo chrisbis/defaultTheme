@@ -14,6 +14,32 @@
         display: none !important;
     }
 
-    
+    .bk-edl li.bk-edli:nth-child(odd) {
+        background: $color-primary !important;
+    }
+
+    .textColor {
+        color: $color-lightblack !important;
+    }
+
+    .img-icon svg use {
+        fill: $color-black !important;
+    }
+
+    .bk-edli {
+        border-radius: $border-radius !important;
+    }    
+
+    .bk-cal-slider {
+        border-bottom: none !important;
+    }
+
+    .bk-ev-grid-head {
+        border-bottom: none !important;
+    }
+
+    .bk-start-time {
+        color: $color-white !important;
+    }
 }
 

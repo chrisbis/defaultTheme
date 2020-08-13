@@ -45,13 +45,13 @@
 							?>	
 						</div>
 						<div class="col-md-4 footer-menu menu-right">
-							<a href="tel:+YY YYYY">
+							<a href="tel:0821 79624249">
 								<i class="fa fa-phone"></i>
-								+YY YYYY
+								0821 79624249
 							</a>
-							<a href="mailto:yy@yyyyy.de">
+							<a href="mailto:info@augsburger-genuss-touren.de ">
 								<i class="fa fa-envelope"></i>
-								yy@yyyyy.de
+								info@augsburger-genuss-touren.de 
 							</a>
 						</div>
 					</div>
