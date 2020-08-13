@@ -4,7 +4,6 @@ jQuery(document).ready(function ($) {
   headerScripts($);
   slick($);
   cookieLayer($);
-  tabsList($);
 });
 
 function setHash(hash) {
@@ -68,20 +67,6 @@ function slick($) {
       }
     }]
   });
-  $(".product-slider .blocks-gallery-grid").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: false,
-    fade: true
-  });
-  $(".product-slider-nav .blocks-gallery-grid").slick({
-    slidesToShow: 4,
-    asNavFor: ".product-slider .blocks-gallery-grid",
-    focusOnSelect: true,
-    dots: false,
-    arrows: false
-  });
 }
 
 function cookieLayer($) {
@@ -121,14 +106,4 @@ function getCookie(name) {
   }
 
   return "";
-}
-
-function tabsList($) {
-  $(".tabs-list .bar-tabs a").on("click", function (e) {
-    e.preventDefault();
-    $(this).tab("show");
-    var that = $(this);
-    $(".tabs-list a").removeClass("active");
-    that.addClass("active");
-  });
 }
