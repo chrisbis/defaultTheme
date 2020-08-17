@@ -4,13 +4,6 @@ table.shop_table_responsive {
 		display: none;
 	}
 
-	tbody {
-
-		th {
-			display: none;
-		}
-	}
-
 	tr {
 
 		td {
@@ -48,8 +41,7 @@ table.shop_table_responsive {
 	}
 }
 
-@media screen and (min-width: 48em) {
-
+@media screen and (min-width: $size-md) {
 	table.shop_table_responsive {
 
 		thead {

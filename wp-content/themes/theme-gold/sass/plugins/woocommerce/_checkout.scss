@@ -1,6 +1,21 @@
 .woocommerce-input-wrapper {
 	width: 100%;
 }
+
+.woocommerce-billing-fields, .woocommerce-shipping-fields, .woocommerce-additional-fields {
+	margin-bottom: 2em;
+}
+
+.woocommerce-checkout-review-order-table {
+	padding: 1em;
+	display: inline-block;
+
+	th {
+		font-size: $font-big
+		;
+	}
+
+}
 @media screen and (min-width: $size-lg) {
 	.woocommerce-input-wrapper {
 		width: 50%;

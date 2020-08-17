@@ -188,7 +188,6 @@ article{margin-bottom:3em}
 .tabs-list .tab-header{margin-bottom:.5em}
 .tabs-list .tab-header::after{content:none}
 table.shop_table_responsive thead{display:none}
-table.shop_table_responsive tbody th{display:none}
 table.shop_table_responsive tr td{display:block;text-align:left;clear:both}
 table.shop_table_responsive tr td.product-remove a{text-align:left}
 table.shop_table_responsive tr td.product-remove::before{display:none}
@@ -232,8 +231,13 @@ ul.products li.product .button{display:block}
 .woocommerce-product-gallery .woocommerce-product-gallery__trigger{display:none}
 .woocommerce-cart-form .remove{font-size:1.8rem;text-decoration:none}
 .woocommerce-cart-form .remove .text{font-size:1rem}
+.woocommerce-cart-form td{margin-bottom:1em}
 .woocommerce-input-wrapper{width:100%}
+.woocommerce-billing-fields,.woocommerce-shipping-fields,.woocommerce-additional-fields{margin-bottom:2em}
+.woocommerce-checkout-review-order-table{padding:1em;display:inline-block}
+.woocommerce-checkout-review-order-table th{font-size:1.1rem}
 .woocommerce h2{padding-top:2rem}
+.woocommerce abbr{text-decoration:none}
 .main-navigation-cart{position:relative;margin:0;padding:0}
 .main-navigation-cart .cart-contents{text-decoration:none}
 .main-navigation-cart .widget_shopping_cart{display:none}
@@ -278,15 +282,12 @@ p.stars.selected a:not(.active)::before{content:"\53";color:#000;opacity:1}
 .widget_price_filter .price_slider_wrapper .ui-widget-content{background:rgba(0,0,0,0.1)}
 .widget_price_filter .ui-slider-horizontal{height:.5em}
 .widget_price_filter .ui-slider-horizontal .ui-slider-range{height:100%}
+.form-row{margin:0 0 1em 0}
+.form-row label{margin-bottom:0}
 .screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute !important;width:1px;word-wrap:normal !important}
 .screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,0.6);box-shadow:0 0 2px 2px rgba(0,0,0,0.6);clip:auto !important;-webkit-clip-path:none;clip-path:none;color:#21759b;display:block;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
 #primary[tabindex="-1"]:focus{outline:0}
-@media screen and (min-width:48em){table.shop_table_responsive thead{display:table-header-group}
-table.shop_table_responsive tbody th{display:table-cell}
-table.shop_table_responsive tr th,table.shop_table_responsive tr td{text-align:left}
-table.shop_table_responsive tr td{display:table-cell}
-table.shop_table_responsive tr td::before{display:none}
-ul.products li.product{width:30.7966666667%;float:left;margin-right:3.8%}
+@media screen and (min-width:48em){ul.products li.product{width:30.7966666667%;float:left;margin-right:3.8%}
 ul.products li.product.first{clear:both}
 ul.products li.product.last{margin-right:0}
 ul.products.columns-1 li.product{float:none;width:100%}
@@ -305,6 +306,7 @@ ul.products.columns-6 li.product{width:13.4933333333%}
 .header-slider.wp-block-gallery figure figcaption strong{font-size:1.8rem}
 .product input{width:50%;max-width:80px}
 .woocommerce-cart-form .remove .text{display:none}
+.woocommerce-cart-form td{padding-right:1em}
 }@media screen and (min-width:768px){main.header-big{margin-top:5.6rem}
 .menu-toggle{display:none}
 .main-navigation{height:auto;font-size:1rem;-webkit-transition:all .5s;transition:all .5s;padding:.2em;-webkit-box-shadow:0 1px 10px 0 rgba(0,0,0,0.75);box-shadow:0 1px 10px 0 rgba(0,0,0,0.75)}
@@ -328,6 +330,11 @@ ul.products.columns-6 li.product{width:13.4933333333%}
 .gallery-slider .slick-slide{padding:.2em 1em .2em 0}
 .header-slider.wp-block-gallery figure figcaption{max-width:730px}
 .header-slider.wp-block-gallery figure figcaption a{top:2em}
+table.shop_table_responsive thead{display:table-header-group}
+table.shop_table_responsive tbody th{display:table-cell}
+table.shop_table_responsive tr th,table.shop_table_responsive tr td{text-align:left}
+table.shop_table_responsive tr td{display:table-cell}
+table.shop_table_responsive tr td::before{display:none}
 .col2-set .form-row-first{float:left;margin-right:3.8%}
 .col2-set .form-row-last{float:right;margin-right:0}
 .col2-set .form-row-first,.col2-set .form-row-last{width:48.1%}

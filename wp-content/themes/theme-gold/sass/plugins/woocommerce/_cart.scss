@@ -8,11 +8,19 @@
 		}
 	}
 
+	td {
+		margin-bottom: 1em;
+	}
+
 	@media screen and (min-width: $size-sm) {
 		.remove {
 			.text {
 				display: none;
 			}
+		}
+
+		td {
+			padding-right: 1em;
 		}
 	}
 }
