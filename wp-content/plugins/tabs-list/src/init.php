@@ -4,7 +4,7 @@
  *
  * Enqueue CSS/JS of all the blocks.
  *
- * @since   1.0.0
+ * @since   1.0.1
  * @package CGB
  */
 
@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @uses {wp-element} for WP Element abstraction — structure of blocks.
  * @uses {wp-i18n} to internationalize the block's text.
  * @uses {wp-editor} for WP editor styles.
- * @since 1.0.0
+ * @since 1.0.1
  */
 function tabs_list_cgb_block_assets() { // phpcs:ignore
 	// Register block editor script for backend.
@@ -37,13 +37,6 @@ function tabs_list_cgb_block_assets() { // phpcs:ignore
 		true // Enqueue the script in the footer.
 	);
 
-	// Register block editor styles for backend.
-	wp_register_style(
-		'tabs_list-cgb-block-editor-css', // Handle.
-		plugins_url( 'dist/blocks.editor.build.css', dirname( __FILE__ ) ), // Block editor CSS.
-		array( 'wp-edit-blocks' ), // Dependency to include the CSS after it.
-		null // filemtime( plugin_dir_path( __DIR__ ) . 'dist/blocks.editor.build.css' ) // Version: File modification time.
-	);
 
 	// WP Localized globals. Use dynamic PHP stuff in JavaScript via `cgbGlobal` object.
 	wp_localize_script(
@@ -69,9 +62,7 @@ function tabs_list_cgb_block_assets() { // phpcs:ignore
 	register_block_type(
 		'cgb/block-tabs-list', array(
 			// Enqueue blocks.build.js in the editor only.
-			'editor_script' => 'tabs_list-cgb-block-js',
-			// Enqueue blocks.editor.build.css in the editor only.
-			'editor_style'  => 'tabs_list-cgb-block-editor-css',
+			'editor_script' => 'tabs_list-cgb-block-js'
 		)
 	);
 }

@@ -3,26 +3,29 @@
  *
  */
 
-import { RichText } from '@wordpress/block-editor';
+import { RichText } from "@wordpress/block-editor";
+// import { registerBlockType } from "@wordpress/blocks";
+import { InnerBlocks } from "@wordpress/block-editor";
 
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
 
-registerBlockType('cgb/block-tabs-list', {
-	title: 'Tabs List',
-	icon: 'excerpt-view',
-	category: 'common',
+registerBlockType("cgb/block-tabs-list", {
+	title: "Tabs List",
+	icon: "excerpt-view",
+	category: "common",
 	attributes: {
-		header1: { type: 'string' },
-		header2: { type: 'string' },
-		header3: { type: 'string' },
-		header4: { type: 'string' },
-		header5: { type: 'string' },
-		content1: { type: 'string' },
-		content2: { type: 'string' },
-		content3: { type: 'string' },
-		content4: { type: 'string' },
-		content5: { type: 'string' }
+		header1: { type: "string" },
+		header2: { type: "string" },
+		header3: { type: "string" },
+		header4: { type: "string" },
+		header5: { type: "string" },
+		header6: { type: "string" },
+		content1: { type: "string" },
+		content2: { type: "string" },
+		content3: { type: "string" },
+		content4: { type: "string" },
+		content5: { type: "string" },
 	},
 
 	edit: (props) => {
@@ -35,7 +38,9 @@ registerBlockType('cgb/block-tabs-list', {
 						<input
 							type="text"
 							value={props.attributes.header1}
-							onChange={() => props.setAttributes({ header1: event.target.value })}
+							onChange={() =>
+								props.setAttributes({ header1: event.target.value })
+							}
 						/>
 					</p>
 
@@ -44,7 +49,7 @@ registerBlockType('cgb/block-tabs-list', {
 						tagName="div"
 						value={props.attributes.content1}
 						onChange={(content1) => props.setAttributes({ content1 })}
-						placeholder={'Content 1'}
+						placeholder={"Content 1"}
 					/>
 				</div>
 				<div>
@@ -53,7 +58,9 @@ registerBlockType('cgb/block-tabs-list', {
 						<input
 							type="text"
 							value={props.attributes.header2}
-							onChange={() => props.setAttributes({ header2: event.target.value })}
+							onChange={() =>
+								props.setAttributes({ header2: event.target.value })
+							}
 						/>
 					</p>
 
@@ -70,7 +77,9 @@ registerBlockType('cgb/block-tabs-list', {
 						<input
 							type="text"
 							value={props.attributes.header3}
-							onChange={() => props.setAttributes({ header3: event.target.value })}
+							onChange={() =>
+								props.setAttributes({ header3: event.target.value })
+							}
 						/>
 					</p>
 
@@ -87,7 +96,9 @@ registerBlockType('cgb/block-tabs-list', {
 						<input
 							type="text"
 							value={props.attributes.header4}
-							onChange={() => props.setAttributes({ header4: event.target.value })}
+							onChange={() =>
+								props.setAttributes({ header4: event.target.value })
+							}
 						/>
 					</p>
 
@@ -104,7 +115,9 @@ registerBlockType('cgb/block-tabs-list', {
 						<input
 							type="text"
 							value={props.attributes.header5}
-							onChange={() => props.setAttributes({ header5: event.target.value })}
+							onChange={() =>
+								props.setAttributes({ header5: event.target.value })
+							}
 						/>
 					</p>
 
@@ -114,6 +127,23 @@ registerBlockType('cgb/block-tabs-list', {
 						value={props.attributes.content5}
 						onChange={(content5) => props.setAttributes({ content5 })}
 					/>
+				</div>
+				<div>
+					<h4>Header 6</h4>
+					<p>
+						<input
+							type="text"
+							value={props.attributes.header6}
+							onChange={() =>
+								props.setAttributes({ header6: event.target.value })
+							}
+						/>
+					</p>
+
+					<h4>Content 6</h4>
+					<div>
+						<InnerBlocks />
+					</div>
 				</div>
 			</div>
 		);
@@ -126,7 +156,11 @@ registerBlockType('cgb/block-tabs-list', {
 					<ul class="nav nav-tabs bar-tabs">
 						<li class="nav-item">
 							<div class="nav-link-wrapper">
-								<a class="nav-link nav-tab active show" data-toggle="tab" href="#tab1">
+								<a
+									class="nav-link nav-tab active show"
+									data-toggle="tab"
+									href="#tab1"
+								>
 									{props.attributes.header1}
 								</a>
 							</div>
@@ -159,36 +193,65 @@ registerBlockType('cgb/block-tabs-list', {
 								</a>
 							</div>
 						</li>
+						<li class="nav-item">
+							<div class="nav-link-wrapper">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tab6">
+									{props.attributes.header6}
+								</a>
+							</div>
+						</li>
 					</ul>
 
 					<div class="tab-content">
 						<div id="tab1" class="tab-pane fade show active">
 							<h3 class="tab-header">{props.attributes.header1}</h3>
-							<RichText.Content tagName="div" value={props.attributes.content1} />
+							<RichText.Content
+								tagName="div"
+								value={props.attributes.content1}
+							/>
 						</div>
 
 						<div id="tab2" class="tab-pane fade">
 							<h3 class="tab-header">{props.attributes.header2}</h3>
-							<RichText.Content tagName="div" value={props.attributes.content2} />
+							<RichText.Content
+								tagName="div"
+								value={props.attributes.content2}
+							/>
 						</div>
 
 						<div id="tab3" class="tab-pane fade">
 							<h3 class="tab-header">{props.attributes.header3}</h3>
-							<RichText.Content tagName="div" value={props.attributes.content3} />
+							<RichText.Content
+								tagName="div"
+								value={props.attributes.content3}
+							/>
 						</div>
 
 						<div id="tab4" class="tab-pane fade">
 							<h3 class="tab-header">{props.attributes.header4}</h3>
-							<RichText.Content tagName="div" value={props.attributes.content4} />
+							<RichText.Content
+								tagName="div"
+								value={props.attributes.content4}
+							/>
 						</div>
 
 						<div id="tab5" class="tab-pane fade">
 							<h3 class="tab-header">{props.attributes.header5}</h3>
-							<RichText.Content tagName="div" value={props.attributes.content5} />
+							<RichText.Content
+								tagName="div"
+								value={props.attributes.content5}
+							/>
+						</div>
+
+						<div id="tab6" class="tab-pane fade">
+							<h3 class="tab-header">{props.attributes.header6}</h3>
+							<div>
+								<InnerBlocks.Content />
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		);
-	}
+	},
 });
