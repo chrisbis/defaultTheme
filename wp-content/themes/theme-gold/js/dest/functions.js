@@ -87,6 +87,8 @@ function slick($) {
     arrows: false,
     draggable: false,
     mobileFirst: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
     responsive: [{
       breakpoint: 768,
       settings: {

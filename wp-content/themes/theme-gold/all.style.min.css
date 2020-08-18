@@ -167,7 +167,8 @@ article{margin-bottom:3em}
 .gallery-slider .slick-next{right:0}
 .gallery-slider .slick-slide{padding:.2em 0}
 .header-slider.wp-block-gallery figure{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-.header-slider.wp-block-gallery figure figcaption{display:block;color:#fff;margin:0;font-size:1rem;background:transparent;text-align:left;padding-top:1.5em;z-index:1;top:0;width:100%;padding-right:0;padding-left:15px;margin-right:auto;margin-left:auto}
+.header-slider.wp-block-gallery figure img{-o-object-fit:cover;object-fit:cover;width:auto;min-height:230px}
+.header-slider.wp-block-gallery figure figcaption{display:block;color:#fff;margin:0;font-size:1rem;background:transparent;text-align:left;padding-top:1.5em;z-index:1;top:0;width:100%;padding-right:10px;padding-left:15px;margin-right:auto;margin-left:auto}
 .header-slider.wp-block-gallery figure figcaption::before{z-index:-1;content:"";display:block;width:100%;height:100%;position:absolute;top:0;left:0;border-radius:3px;background-color:rgba(0,0,0,0.4)}
 .header-slider.wp-block-gallery figure figcaption strong{font-size:1.1rem;margin-bottom:.2em;display:block}
 .header-slider.wp-block-gallery figure figcaption a{position:relative;top:2em;z-index:2;border-radius:3px;background-color:#4c5c68;color:#fff;padding:.6em 1em .5em 1em;width:auto;margin:.7em 0 .7em 0;cursor:pointer;text-decoration:none}
@@ -298,10 +299,12 @@ ul.products.columns-5 li.product{width:16.96%}
 ul.products.columns-6 li.product{width:13.4933333333%}
 .main-navigation-cart .widget_shopping_cart{position:absolute;top:100%;width:100%;z-index:999999;left:-999em;display:block;-webkit-box-shadow:0 3px 3px rgba(0,0,0,0.2);box-shadow:0 3px 3px rgba(0,0,0,0.2)}
 .main-navigation-cart:hover .widget_shopping_cart,.main-navigation-cart.focus .widget_shopping_cart{left:0;display:block}
+}@media screen and (min-width:200px){.header-slider.wp-block-gallery figure figcaption{padding-right:43%}
 }@media screen and (min-width:375px){.header-slider.wp-block-gallery figure figcaption{padding-top:3em}
 }@media screen and (min-width:576px){h1,h2,h3,h4,h5,h6{font-size:1.8rem}
+.header-slider.wp-block-gallery figure img{min-height:360px}
 .header-slider.wp-block-gallery figure figcaption{top:3em;font-size:1.1rem;padding-right:50%;padding-top:2em;padding-left:25px}
-.header-slider.wp-block-gallery figure figcaption::before{width:50%;height:77%}
+.header-slider.wp-block-gallery figure figcaption::before{width:50%;height:66%}
 .header-slider.wp-block-gallery figure figcaption a{top:3em}
 .header-slider.wp-block-gallery figure figcaption strong{font-size:1.8rem}
 .product input{width:50%;max-width:80px}
@@ -328,6 +331,7 @@ ul.products.columns-6 li.product{width:13.4933333333%}
 .site-footer .footer-menus{padding:1em 0}
 .site-footer .footer-menus .footer-menu{padding-top:0;padding-bottom:0;border-bottom:0}
 .gallery-slider .slick-slide{padding:.2em 1em .2em 0}
+.header-slider.wp-block-gallery figure img{min-height:460px}
 .header-slider.wp-block-gallery figure figcaption{max-width:730px}
 .header-slider.wp-block-gallery figure figcaption a{top:2em}
 table.shop_table_responsive thead{display:table-header-group}
@@ -355,9 +359,10 @@ table.shop_table_responsive tr td::before{display:none}
 .tabs-list .tab-pane.active.show{display:block;opacity:1}
 .tabs-list .tab-header{display:none}
 .woocommerce-input-wrapper{width:50%}
-}@media screen and (min-width:1200px){.header-slider.wp-block-gallery figure figcaption{max-width:1180px;padding-right:63%;padding-left:35px}
-.header-slider.wp-block-gallery figure figcaption::before{width:30%;height:90%}
+}@media screen and (min-width:1200px){.header-slider.wp-block-gallery figure img{min-height:560px}
+.header-slider.wp-block-gallery figure figcaption{max-width:1180px;padding-right:63%;padding-left:35px}
+.header-slider.wp-block-gallery figure figcaption::before{width:30%}
 .header-slider.wp-block-gallery figure figcaption a{top:3em}
 }@media screen and (min-width:1500px){.header-slider.wp-block-gallery figure figcaption{padding-right:57%}
-}@media screen and (min-width:1700px){.header-slider.wp-block-gallery figure figcaption{padding-right:49%}
+}@media screen and (min-width:1700px){.header-slider.wp-block-gallery figure figcaption{padding-right:48%}
 }
