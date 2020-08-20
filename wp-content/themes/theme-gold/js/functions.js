@@ -108,7 +108,7 @@ function slick($) {
 				settings: {
 					dots: true,
 				},
-			}
+			},
 		],
 	});
 }
@@ -150,7 +150,17 @@ function getCookie(name) {
 function tabsList($) {
 	$(".tabs-list .bar-tabs a").on("click", function (e) {
 		e.preventDefault();
-		$(this).tab("show");
+
+		jQuery(".tabs-list")
+			.find(".tab-pane")
+			.each(function () {
+				jQuery(this).removeClass("active show");
+			});
+
+		var ref = $($(this).attr("href"));
+		ref.addClass("active show");
+		
+		// Tab header active class
 		var that = $(this);
 		$(".tabs-list a").removeClass("active");
 		that.addClass("active");

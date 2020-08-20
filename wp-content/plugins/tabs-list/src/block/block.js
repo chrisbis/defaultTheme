@@ -159,7 +159,7 @@ registerBlockType("cgb/block-tabs-list", {
 								<a
 									class="nav-link nav-tab active show"
 									data-toggle="tab"
-									href="#tab1"
+									href="#tabOne"
 								>
 									{props.attributes.header1}
 								</a>
@@ -167,35 +167,35 @@ registerBlockType("cgb/block-tabs-list", {
 						</li>
 						<li class="nav-item">
 							<div class="nav-link-wrapper">
-								<a class="nav-link nav-tab" data-toggle="tab" href="#tab2">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tabTwo">
 									{props.attributes.header2}
 								</a>
 							</div>
 						</li>
 						<li class="nav-item">
 							<div class="nav-link-wrapper">
-								<a class="nav-link nav-tab" data-toggle="tab" href="#tab3">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tabThree">
 									{props.attributes.header3}
 								</a>
 							</div>
 						</li>
 						<li class="nav-item">
 							<div class="nav-link-wrapper">
-								<a class="nav-link nav-tab" data-toggle="tab" href="#tab4">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tabFour">
 									{props.attributes.header4}
 								</a>
 							</div>
 						</li>
 						<li class="nav-item">
 							<div class="nav-link-wrapper">
-								<a class="nav-link nav-tab" data-toggle="tab" href="#tab5">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tabFive">
 									{props.attributes.header5}
 								</a>
 							</div>
 						</li>
 						<li class="nav-item">
 							<div class="nav-link-wrapper">
-								<a class="nav-link nav-tab" data-toggle="tab" href="#tab6">
+								<a class="nav-link nav-tab" data-toggle="tab" href="#tabSix">
 									{props.attributes.header6}
 								</a>
 							</div>
@@ -203,50 +203,163 @@ registerBlockType("cgb/block-tabs-list", {
 					</ul>
 
 					<div class="tab-content">
-						<div id="tab1" class="tab-pane fade show active">
-							<h3 class="tab-header">{props.attributes.header1}</h3>
-							<RichText.Content
-								tagName="div"
-								value={props.attributes.content1}
-							/>
+						<div id="tabOne" class="tab-pane fade show active">
+							<div class="d-block d-lg-none">
+								<h3
+									data-toggle="collapse"
+									data-target="#collapseOne"
+									aria-expanded="false"
+									aria-controls="collapseOne"
+									class="tab-header collapsed"
+								>
+									{props.attributes.header1}
+								</h3>
+								<div class="collapse" id="collapseOne">
+									<RichText.Content
+										tagName="div"
+										value={props.attributes.content1}
+									/>
+								</div>
+							</div>
+
+							<div class="d-none d-lg-block">
+								<RichText.Content
+									tagName="div"
+									value={props.attributes.content1}
+								/>
+							</div>
 						</div>
 
-						<div id="tab2" class="tab-pane fade">
-							<h3 class="tab-header">{props.attributes.header2}</h3>
-							<RichText.Content
-								tagName="div"
-								value={props.attributes.content2}
-							/>
+						<div id="tabTwo" class="tab-pane fade">
+							<div class="d-block d-lg-none">
+								<h3
+									data-toggle="collapse"
+									data-target="#collapseTwo"
+									aria-expanded="false"
+									aria-controls="collapseTwo"
+									class="tab-header collapsed"
+								>
+									{props.attributes.header2}
+								</h3>
+								<div class="collapse" id="collapseTwo">
+									<RichText.Content
+										tagName="div"
+										value={props.attributes.content2}
+									/>
+								</div>
+							</div>
+
+							<div class="d-none d-lg-block">
+								<RichText.Content
+									tagName="div"
+									value={props.attributes.content2}
+								/>
+							</div>
 						</div>
 
-						<div id="tab3" class="tab-pane fade">
-							<h3 class="tab-header">{props.attributes.header3}</h3>
-							<RichText.Content
-								tagName="div"
-								value={props.attributes.content3}
-							/>
+						<div id="tabThree" class="tab-pane fade">
+							<div class="d-block d-lg-none">
+								<h3
+									data-toggle="collapse"
+									data-target="#collapseThree"
+									aria-expanded="false"
+									aria-controls="collapseThree"
+									class="tab-header collapsed"
+								>
+									{props.attributes.header3}
+								</h3>
+								<div class="collapse" id="collapseThree">
+									<RichText.Content
+										tagName="div"
+										value={props.attributes.content3}
+									/>
+								</div>
+							</div>
+
+							<div class="d-none d-lg-block">
+								<RichText.Content
+									tagName="div"
+									value={props.attributes.content3}
+								/>
+							</div>
 						</div>
 
-						<div id="tab4" class="tab-pane fade">
-							<h3 class="tab-header">{props.attributes.header4}</h3>
-							<RichText.Content
-								tagName="div"
-								value={props.attributes.content4}
-							/>
+						<div id="tabFour" class="tab-pane fade">
+							<div class="d-block d-lg-none">
+								<h3
+									data-toggle="collapse"
+									data-target="#collapseFour"
+									aria-expanded="false"
+									aria-controls="collapseFour"
+									class="tab-header collapsed"
+								>
+									{props.attributes.header4}
+								</h3>
+								<div class="collapse" id="collapseFour">
+									<RichText.Content
+										tagName="div"
+										value={props.attributes.content4}
+									/>
+								</div>
+							</div>
+
+							<div class="d-none d-lg-block">
+								<RichText.Content
+									tagName="div"
+									value={props.attributes.content4}
+								/>
+							</div>
 						</div>
 
-						<div id="tab5" class="tab-pane fade">
-							<h3 class="tab-header">{props.attributes.header5}</h3>
-							<RichText.Content
-								tagName="div"
-								value={props.attributes.content5}
-							/>
+						<div id="tabFive" class="tab-pane fade">
+							<div class="d-block d-lg-none">
+								<h3
+									data-toggle="collapse"
+									data-target="#collapseFive"
+									aria-expanded="false"
+									aria-controls="collapseFive"
+									class="tab-header collapsed"
+								>
+									{props.attributes.header5}
+								</h3>
+								<div class="collapse" id="collapseFive">
+									<RichText.Content
+										tagName="div"
+										value={props.attributes.content5}
+									/>
+								</div>
+							</div>
+
+							<div class="d-none d-lg-block">
+								<RichText.Content
+									tagName="div"
+									value={props.attributes.content5}
+								/>
+							</div>
 						</div>
 
-						<div id="tab6" class="tab-pane fade">
-							<h3 class="tab-header">{props.attributes.header6}</h3>
-							<div>
-								<InnerBlocks.Content />
+						<div id="tabSix" class="tab-pane fade">
+							<div class="d-block d-lg-none">
+								<h3
+									data-toggle="collapse"
+									data-target="#collapseSix"
+									aria-expanded="false"
+									aria-controls="collapseSix"
+									class="tab-header collapsed"
+								>
+									{props.attributes.header6}
+								</h3>
+								<div class="collapse" id="collapseSix">
+									<div>
+										<InnerBlocks.Content />
+									</div>
+								</div>
+							</div>
+
+							<div class="d-none d-lg-block">
+								<div>
+									<InnerBlocks.Content />
+								</div>
 							</div>
 						</div>
 					</div>
