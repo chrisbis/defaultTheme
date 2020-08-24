@@ -62,7 +62,7 @@ abbr,acronym{border-bottom:1px dotted #666;cursor:help}
 mark,ins{background:#fff9c0;text-decoration:none}
 big{font-size:125%}
 hr{background-color:#ccc;border:0;height:1px;margin-bottom:1.5em}
-ul,ol{margin:0;list-style:none;padding:0}
+ul,ol{margin:0;padding-left:1em}
 li>ul,li>ol{margin-bottom:0;margin-left:1.5em}
 dt{font-weight:700}
 dd{margin:0 1.5em 1.5em}
