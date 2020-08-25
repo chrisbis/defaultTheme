@@ -157,6 +157,7 @@ article{margin-bottom:3em}
 .slider,.gallery-slider,.product-slider,.product-slider-nav,.header-slider{display:block;-ms-flex-wrap:nowrap;flex-wrap:nowrap;margin-bottom:2em}
 .slider .blocks-gallery-item,.gallery-slider .blocks-gallery-item,.product-slider .blocks-gallery-item,.product-slider-nav .blocks-gallery-item,.header-slider .blocks-gallery-item{margin:0 !important}
 .product-slider{margin-bottom:2px}
+.product-slider img{max-height:600px}
 .gallery-slider{margin-top:2.5em}
 .gallery-slider .slick-prev,.gallery-slider .slick-next{left:auto;top:-18px;height:auto;background-color:transparent}
 .gallery-slider .slick-prev:before,.gallery-slider .slick-next:before{color:#4c5c68;font-size:21px}
