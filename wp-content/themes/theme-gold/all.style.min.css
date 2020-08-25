@@ -133,6 +133,7 @@ article{margin-bottom:3em}
 .main-navigation.toggled .primary-menu{max-height:1000px;-webkit-box-shadow:0 4px 5px 0 rgba(0,0,0,0.75);box-shadow:0 4px 5px 0 rgba(0,0,0,0.75)}
 .menu-toggle,.main-navigation.toggled ul{display:block}
 .site-footer{background-color:#fff;border-top:10px solid #278939;font-size:.9rem;-webkit-box-shadow:0 1px 10px 0 rgba(0,0,0,0.75);box-shadow:0 1px 10px 0 rgba(0,0,0,0.75)}
+.site-footer ul{list-style-type:none;padding-left:0}
 .site-footer .footer-menus .footer-menu{padding-top:1em;padding-bottom:1em;border-bottom:1px solid #278939}
 .site-footer .footer-menus .footer-menu:last-child{border-bottom:0}
 .site-footer .site-info{padding:1em;color:#fff;background-color:#278939;font-size:.8rem}
