@@ -34,11 +34,19 @@ main {
 }
 
 .full-width {
-	width: 99vw;
+	width: 100vw;
     position: relative;
-    margin-left: -50vw;
+    margin-left: -52vw;
     left: 50%;
-    overflow: hidden;
+	overflow: hidden;
+
+	@media screen and (min-width: $size-xl) {
+		margin-left: -51vw;
+	}
+
+	@media screen and (min-width: $size-xxl) {
+		margin-left: -50.5vw;
+	}
 }
 
 article {

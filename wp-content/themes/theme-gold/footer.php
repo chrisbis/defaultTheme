@@ -49,9 +49,13 @@
 								<i class="fa fa-phone"></i>
 								0821 79624249
 							</a>
-							<a href="mailto:info@augsburger-genuss-touren.de ">
+							<a href="mailto:info@augsburger-genuss-touren.de">
 								<i class="fa fa-envelope"></i>
 								info@augsburger-genuss-touren.de 
+							</a>
+							<a href="https://www.instagram.com/augsburger_genuss_touren">
+								<i class="fab fa-instagram"></i>
+								Augsburger Genuss Touren
 							</a>
 						</div>
 					</div>

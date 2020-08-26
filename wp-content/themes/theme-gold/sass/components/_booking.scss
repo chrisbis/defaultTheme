@@ -41,5 +41,12 @@
     .bk-start-time {
         color: $color-white !important;
     }
+
+    // Voucher
+    .bk-event-content {
+        .bk-header-box {
+            display: none;
+        }
+    }
 }
 

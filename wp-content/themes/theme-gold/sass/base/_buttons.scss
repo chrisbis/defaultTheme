@@ -5,7 +5,8 @@ input[type="submit"],
 .wp-block-button__link.product-teaser a,
 input[type="submit"],
 .wp-block-button__link,
-.button {
+.button,
+.voucher a {
 	display: inline-block;
 	border-radius: $border-radius;
 	background-color: $color-primary;
