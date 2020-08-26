@@ -73,7 +73,9 @@ function slick($) {
     slidesToScroll: 1,
     arrows: false,
     dots: false,
-    fade: true
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 4000
   });
   $(".product-slider-nav .blocks-gallery-grid").slick({
     slidesToShow: 4,

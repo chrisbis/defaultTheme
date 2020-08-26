@@ -85,6 +85,8 @@ function slick($) {
 		arrows: false,
 		dots: false,
 		fade: true,
+		autoplay: true,
+		autoplaySpeed: 4000,
 	});
 
 	$(".product-slider-nav .blocks-gallery-grid").slick({

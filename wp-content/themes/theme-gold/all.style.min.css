@@ -302,7 +302,6 @@ ul.products.columns-5 li.product{width:16.96%}
 ul.products.columns-6 li.product{width:13.4933333333%}
 .main-navigation-cart .widget_shopping_cart{position:absolute;top:100%;width:100%;z-index:999999;left:-999em;display:block;-webkit-box-shadow:0 3px 3px rgba(0,0,0,0.2);box-shadow:0 3px 3px rgba(0,0,0,0.2)}
 .main-navigation-cart:hover .widget_shopping_cart,.main-navigation-cart.focus .widget_shopping_cart{left:0;display:block}
-}@media screen and (min-width:200px){.header-slider.wp-block-gallery figure figcaption{padding-right:43%}
 }@media screen and (min-width:375px){.header-slider.wp-block-gallery figure figcaption{padding-top:3em}
 }@media screen and (min-width:576px){h1,h2,h3,h4,h5,h6{font-size:1.8rem}
 .header-slider.wp-block-gallery figure img{min-height:360px}
@@ -368,4 +367,6 @@ table.shop_table_responsive tr td::before{display:none}
 .header-slider.wp-block-gallery figure figcaption a{top:3em}
 }@media screen and (min-width:1500px){.header-slider.wp-block-gallery figure figcaption{padding-right:57%}
 }@media screen and (min-width:1700px){.header-slider.wp-block-gallery figure figcaption{padding-right:48%}
+}@media screen and (min-width:2000px){.header-slider.wp-block-gallery figure figcaption{padding-right:43%}
+}@media screen and (min-width:2300px){.header-slider.wp-block-gallery figure figcaption{padding-right:40%}
 }
