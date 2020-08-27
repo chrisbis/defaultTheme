@@ -1,0 +1,243 @@
+2020-08-26T14:56:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T14:56:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T14:56:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T14:57:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T14:57:35+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T14:58:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T14:59:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T14:59:24+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:04:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:04:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:04:55+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:05:01+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:05:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:05:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:05:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:05:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:05:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:05:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:05:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:06:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:06:05+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:06:40+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:07:02+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:07:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:07:05+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:07:06+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
+2020-08-26T15:08:03+00:00 CRITICAL Uncaught Error: Call to undefined function get_registered_theme_features() in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:405
+Stack trace:
+#0 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(387): WP_REST_Themes_Controller->get_item_schema()
+#1 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(342): WP_REST_Controller->get_context_param()
+#2 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(428): WP_REST_Controller->get_collection_params()
+#3 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php(45): WP_REST_Themes_Controller->get_collection_params()
+#4 /home/m2420/Sites/christophkleber.de/wp-includes/rest-api.php(298): WP_REST_Themes_Controller->register_routes()
+#5 /home/m2420/Sites/christophkleber.de/wp-includes/class-wp-hook.php(287): create_initial_r in /home/m2420/Sites/christophkleber.de/wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php in Zeile 405
+
