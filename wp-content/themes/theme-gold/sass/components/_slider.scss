@@ -207,12 +207,12 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .header-slider.wp-block-gallery {
-    $text-width: 100%;
-    $padding-right-width: 100% - $text-width;
-    $padding-top: 1.5em;
-    $top: 0;
+	$text-width: 100%;
+	$padding-right-width: 100% - $text-width;
+	$padding-top: 1.5em;
+	$top: 0;
 	$height: 100%;
-	
+
 	.slick-slide {
 		&:nth-child(2) {
 			figcaption {
@@ -234,7 +234,7 @@ $slick-opacity-not-active: 0.25 !default;
 	figure {
 		display: flex;
 		justify-content: center;
-		
+
 		img {
 			object-fit: cover;
 			width: auto;
@@ -253,7 +253,7 @@ $slick-opacity-not-active: 0.25 !default;
 			}
 		}
 
-		figcaption {        
+		figcaption {
 			display: block;
 			color: $color-black;
 			margin: 0;
@@ -261,13 +261,41 @@ $slick-opacity-not-active: 0.25 !default;
 			background: transparent;
 			text-align: left;
 			padding-top: $padding-top;
-            z-index: 1;
-            top: $top;
+			z-index: 1;
+			top: $top;
+			left: 0;
 
 			width: 60%;
-			padding-right: 10px;
+			padding-right: 15px;
 			padding-left: 15px;
-			left: 0;
+			margin-right: auto;
+			margin-left: auto;
+
+			@media (min-width: $size-sm) {
+				padding-left: 30px;
+			}
+
+			@media (min-width: $size-md) {
+				padding-left: 60px;
+			}
+
+			@media (min-width: $size-md) {
+				padding-left: 45px;
+				width: 50%;
+			}
+
+			@media (min-width: $size-lg) {
+				padding-left: 45px;
+			}
+
+			@media (min-width: $size-xl) {
+				padding-left: 120px;
+				width: 40%;
+			}
+
+			@media (min-width: $size-xl) {
+				padding-left: 180px;
+			}
 
 			strong {
 				font-size: $font-big;
@@ -275,7 +303,7 @@ $slick-opacity-not-active: 0.25 !default;
 				display: block;
 
 				&::after {
-					content: '®';
+					content: "®";
 					font-size: 0.6em;
 					position: absolute;
 				}
@@ -283,8 +311,8 @@ $slick-opacity-not-active: 0.25 !default;
 
 			a {
 				position: relative;
-                top: 2em;
-                z-index: 2;
+				top: 2em;
+				z-index: 2;
 
 				border-radius: $border-radius;
 				background-color: $color-primary;
@@ -300,31 +328,32 @@ $slick-opacity-not-active: 0.25 !default;
 					color: $color-black;
 					text-decoration: none;
 				}
-            }
-            
-            @media screen and (min-width: 375px) {
-				padding-top: 3em; 
-            }
-            @media screen and (min-width: $size-sm) {
-                top: 3em;
-                font-size: $font-big;
-                a {
-                    top: 3em;
-                }
-                strong {
-                    font-size: $font-verybig;
-                }
+			}
+
+			@media screen and (min-width: 375px) {
+				padding-top: 3em;
+			}
+			@media screen and (min-width: $size-sm) {
+				top: 3em;
+				font-size: $font-big;
+				a {
+					top: 3em;
+				}
+				strong {
+					font-size: $font-verybig;
+				}
 			}
 			@media screen and (min-width: $size-md) {
-                a {
-                    top: 2em;
-                }
+				padding-left: 3em;
+				a {
+					top: 2em;
+				}
 			}
 			@media screen and (min-width: $size-xl) {
-                a {
-                    top: 3em;
-                }
-            }
+				a {
+					top: 3em;
+				}
+			}
 		}
 	}
 }
