@@ -11,68 +11,76 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="footer-menus">
-			<div class="container">
-				<div class="row">
-						<div class="col-md-2 footer-menu menu-left">
-							<?php
-							if ( is_front_page() ) :
-								wp_nav_menu(
-									array(
-										'theme_location' => 'header',
-										'menu_class'     => 'primary-menu',
-									)
-								);
-							else :
-								wp_nav_menu(
-									array(
-										'theme_location' => 'header-not-front',
-										'menu_class'     => 'primary-menu',
-									)
-								);
-							endif;
-							?>
-						</div>
-						<div class="col-md-6 footer-menu menu-middle">
-							<?php
-							wp_nav_menu(
-								array(
-									'theme_location' => 'footer',
-									'menu_class'     => 'secondary-menu',
-								)
-							);
-							?>	
-						</div>
-						<div class="col-md-4 footer-menu menu-right">
-							<a href="tel:0821 79624249">
-								<i class="fa fa-phone"></i>
-								0821 79624249
-							</a>
-							<a href="mailto:info@augsburger-genuss-touren.de">
-								<i class="fa fa-envelope"></i>
-								info@augsburger-genuss-touren.de 
-							</a>
-							<a href="https://www.instagram.com/augsburger_genuss_touren">
-								<i class="fab fa-instagram"></i>
-								Augsburger Genuss Touren
-							</a>
-						</div>
-					</div>
+<footer id="colophon" class="site-footer">
+	<div class="footer-menus">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 footer-menu menu-left">
+					<?php
+					if (is_front_page()) :
+						wp_nav_menu(
+							array(
+								'theme_location' => 'header',
+								'menu_class'     => 'primary-menu',
+							)
+						);
+					else :
+						wp_nav_menu(
+							array(
+								'theme_location' => 'header-not-front',
+								'menu_class'     => 'primary-menu',
+							)
+						);
+					endif;
+					?>
+				</div>
+				<div class="col-md-6 footer-menu menu-middle">
+					<?php
+					wp_nav_menu(
+						array(
+							'theme_location' => 'footer',
+							'menu_class'     => 'secondary-menu',
+						)
+					);
+					?>
+				</div>
+				<div class="col-md-4 footer-menu menu-right">
+					<a href="tel:0821 79624249">
+						<i class="fa fa-phone"></i>
+						0821 79624249
+					</a>
+					<a href="mailto:info@augsburger-genuss-touren.de">
+						<i class="fa fa-envelope"></i>
+						info@augsburger-genuss-touren.de
+					</a>
+					<a href="https://www.instagram.com/augsburger_genuss_touren" target="_blank">
+						<i class="fab fa-instagram"></i>
+						Augsburger Genuss Touren
+					</a>
 				</div>
 			</div>
-		<div class="site-info">
-			<div class="container">		
-				<i class="fa fa-copyright"></i>
-				<?php
-				printf( esc_html__( ' 2020 by Augsburger Genuss Touren', 'theme-gold' ), '' );
-				?>
+		</div>
+	</div>
+	<div class="site-info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<i class="fa fa-copyright"></i>
+					<?php
+					printf(esc_html__(' 2020 Augsburger Genuss Touren', 'theme-gold'), '');
+					?>
+				</div>
+				<div class="col-md-3">
+					Seite erstellt von <a href="mailto:c.kleber@aol.com">Christoph Kleber</a>.
+				</div>
 			</div>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+		</div>
+	</div><!-- .site-info -->
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>

@@ -51,7 +51,7 @@ h1{margin:0;text-align:center;display:block;font-size:1.8rem}
 h1::after{content:none}
 h2{padding-top:6rem}
 section:first-child h1{padding-top:7rem}
-.entry-title{padding-top:2rem}
+.entry-title{padding-top:2rem;padding-bottom:2rem}
 p{margin-bottom:1.5em}
 dfn,cite,em,i{font-style:italic}
 blockquote{margin:0 1.5em}
@@ -136,6 +136,7 @@ article{margin-bottom:3em}
 .site-footer ul{list-style-type:none;padding-left:0}
 .site-footer .footer-menus .footer-menu{padding-top:1em;padding-bottom:1em;border-bottom:1px solid #278939}
 .site-footer .footer-menus .footer-menu:last-child{border-bottom:0}
+.site-footer .site-info a{color:#fff;display:inline;text-decoration:underline}
 .site-footer .site-info{padding:1em;color:#fff;background-color:#278939;font-size:.8rem}
 .site-footer a{color:#000;text-decoration:none;display:block}
 .site-footer a:hover{text-decoration:none}

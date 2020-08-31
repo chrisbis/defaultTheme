@@ -20,6 +20,14 @@
         }
     }
 
+    .site-info {
+        a {
+            color: $color-white;
+            display: inline;
+            text-decoration: underline;
+        }
+    }
+
     @media screen and (min-width: $size-md) {
         border-top: 2px solid $color-primary;
 
