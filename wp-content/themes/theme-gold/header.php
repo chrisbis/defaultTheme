@@ -18,7 +18,8 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+	<link rel="preload" href="/wp-content/themes/theme-gold/fonts/Montserrat-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+	<link rel="preload" href="/wp-content/themes/theme-gold/fonts/Montserrat-Medium.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 	<?php wp_head(); ?>
 </head>
 
