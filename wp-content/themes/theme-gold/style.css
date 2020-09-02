@@ -106,9 +106,9 @@ main{-webkit-transition:all .5s;transition:all .5s;margin-top:80px}
 .entry-content>figure{margin-top:-6rem}
 .full-width{width:100vw;position:relative;margin-left:-52vw;left:50%;overflow:hidden}
 article{margin-bottom:3em}
-section{margin-bottom:-2em}
+section{margin-bottom:-2em;-webkit-columns:1;-moz-columns:1;columns:1}
 section p:last-child{margin-bottom:0}
-section ul{margin-bottom:1em}
+section ul{margin-bottom:2em}
 h1{margin-bottom:-1em}
 .main-navigation{display:block;width:100%;background-color:#fff;border-bottom:3px solid #278939;position:fixed;left:0;top:0;z-index:999;height:5rem;text-transform:uppercase}
 .main-navigation .container,.main-navigation .row,.main-navigation .col{height:100%}
@@ -195,7 +195,7 @@ h1{margin-bottom:-1em}
 .tabs-list .tab-pane{display:block}
 .tabs-list .tab-header{margin-bottom:.5em}
 .tabs-list .tab-header::after{content:none}
-#bookingKitContainer{font-family:Montserrat,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;font-weight:bold !important}
+#bookingKitContainer{font-family:Montserrat,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;font-weight:bold !important;margin-top:2em !important}
 #bookingKitContainer h1::after,#bookingKitContainer h2::after,#bookingKitContainer h3::after,#bookingKitContainer h4::after{content:none}
 #bookingKitContainer .bk-sale-header,#bookingKitContainer #bk-ev-grid_ct img,#bookingKitContainer .bk-header-language,#bookingKitContainer .bk-events-footer{display:none !important}
 #bookingKitContainer .bk-edl li.bk-edli:nth-child(odd){background:#278939 !important}
@@ -206,7 +206,7 @@ h1{margin-bottom:-1em}
 #bookingKitContainer .bk-ev-grid-head{border-bottom:none !important}
 #bookingKitContainer .bk-start-time{color:#fff !important}
 #bookingKitContainer .bk-event-content .bk-header-box{display:none}
-#buchung h3{margin:2em 0 3em 0}
+#buchung h3{margin:1em 0 3em 0}
 .screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute !important;width:1px;word-wrap:normal !important}
 .screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,0.6);box-shadow:0 0 2px 2px rgba(0,0,0,0.6);clip:auto !important;-webkit-clip-path:none;clip-path:none;color:#21759b;display:block;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
 #primary[tabindex="-1"]:focus{outline:0}
@@ -258,6 +258,7 @@ h3{font-size:1.1rem}
 .tabs-list .tab-pane{display:none}
 .tabs-list .tab-pane.active.show{display:block;opacity:1}
 .tabs-list .tab-header{display:none}
+#buchung h3{margin-top:2em}
 }@media screen and (min-width:1200px){h2{padding-top:7rem}
 main.header-big{margin-top:115px}
 .full-width{margin-left:-51vw}

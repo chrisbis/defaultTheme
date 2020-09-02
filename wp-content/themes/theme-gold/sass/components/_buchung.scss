@@ -1,3 +1,7 @@
 #buchung h3 {
-	margin: 2em 0 3em 0;
+	margin: 1em 0 3em 0;
+
+	@media screen and (min-width: $size-lg) {
+		margin-top: 2em;
+	}
 }

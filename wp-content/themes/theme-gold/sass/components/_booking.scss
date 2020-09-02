@@ -1,6 +1,7 @@
 #bookingKitContainer {
     font-family: $font-headings !important;
     font-weight: bold !important;
+    margin-top: 2em !important;
 
     h1, h2, h3, h4 {
         &::after {
