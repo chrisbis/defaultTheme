@@ -152,4 +152,9 @@ function tabsList($) {
     $(".tabs-list a").removeClass("active");
     that.addClass("active");
   });
+  $(".tab-header").on("click", function (e) {
+    $('.collapse').each(function () {
+      $(this).collapse('hide');
+    });
+  });
 }

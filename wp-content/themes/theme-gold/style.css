@@ -45,7 +45,7 @@ body,button,input,select,optgroup,textarea{color:#000;font-family:Jost,BlinkMacS
 @font-face{font-family:Jost;src:url("fonts/Jost-Regular.ttf");font-weight:normal}
 @font-face{font-family:OpenSans;src:url("fonts/OpenSans-Regular.ttf");font-weight:normal}
 h1,h2,h3,h4,h5,h6{clear:both;position:relative;display:inline-block;margin-bottom:1em;font-size:1.1rem}
-h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{content:"";display:inline-block;border-bottom:2px solid #4c5c68;width:85%;position:absolute;bottom:-5px;left:0}
+h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{content:"";display:inline-block;border-bottom:2px solid #4c5c68;width:100%;position:absolute;bottom:-5px;left:0}
 h1{margin-top:0;padding-top:7rem}
 h2{padding-top:7rem}
 section:first-child h1{padding-top:7rem}
@@ -104,6 +104,7 @@ main{-webkit-transition:all .5s;transition:all .5s;margin-top:4.8rem}
 .entry-content>figure{margin-top:-4rem}
 .full-width{width:99vw;position:relative;margin-left:-50vw;left:50%;overflow:hidden}
 article{margin-bottom:3em}
+#idee img{max-height:none}
 .main-navigation{display:block;width:100%;background-color:#fff;border-bottom:3px solid #4c5c68;position:fixed;left:0;top:0;z-index:999;height:5rem}
 .main-navigation .container,.main-navigation .row,.main-navigation .col{height:100%}
 .main-navigation a{text-decoration:none}
@@ -168,7 +169,8 @@ article{margin-bottom:3em}
 .gallery-slider .slick-next{right:0}
 .gallery-slider .slick-slide{padding:.2em 0}
 .header-slider.wp-block-gallery .slick-slide:nth-child(1) figure img{-o-object-position:left;object-position:left}
-.header-slider.wp-block-gallery .slick-slide:nth-child(2) figcaption{color:#fff}
+.header-slider.wp-block-gallery .slick-slide:nth-child(2) figure img{-o-object-position:left;object-position:left}
+.header-slider.wp-block-gallery .slick-slide:nth-child(2) figcaption{width:52%;padding-top:3%}
 .header-slider.wp-block-gallery .slick-slide:nth-child(3) figcaption{color:#fff}
 .header-slider.wp-block-gallery .slick-slide:nth-child(6) figure img{-o-object-position:right;object-position:right}
 .header-slider.wp-block-gallery figure{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
@@ -312,7 +314,7 @@ ul.products.columns-6 li.product{width:13.4933333333%}
 .header-slider.wp-block-gallery figure figcaption br{display:block}
 }@media screen and (min-width:576px){h1,h2,h3,h4,h5,h6{font-size:1.8rem}
 .header-slider.wp-block-gallery figure img{min-height:200px}
-.header-slider.wp-block-gallery figure figcaption{padding-left:1%;top:3em;font-size:1.1rem}
+.header-slider.wp-block-gallery figure figcaption{padding-left:2%;top:3em;font-size:1.1rem}
 .header-slider.wp-block-gallery figure figcaption a{top:3em}
 .header-slider.wp-block-gallery figure figcaption strong{font-size:1.8rem}
 .product input{width:50%;max-width:80px}
@@ -371,4 +373,6 @@ table.shop_table_responsive tr td::before{display:none}
 }@media screen and (min-width:1200px){.header-slider.wp-block-gallery figure img{min-height:560px}
 .header-slider.wp-block-gallery figure figcaption{padding-left:10%}
 .header-slider.wp-block-gallery figure figcaption a{top:3em}
+.header-slider.wp-block-gallery figure figcaption{padding-left:15%}
+}@media screen and (min-width:2560px){.header-slider.wp-block-gallery figure figcaption{padding-left:5%;margin-left:25%}
 }
