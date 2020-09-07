@@ -43,6 +43,15 @@
         color: $color-white !important;
     }
 
+    .bk-grid-a.bk-ev-grid-head .calendar-row td a {
+        font-weight: bold !important;
+    }
+
+    #bk-header-calendar-container_evgt .bk-active-day {
+        border: 2px solid !important;
+        border-color: $color-primary !important;
+    }
+
     // Voucher
     .bk-event-content {
         .bk-header-box {

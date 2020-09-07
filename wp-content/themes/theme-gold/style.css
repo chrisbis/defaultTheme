@@ -205,6 +205,8 @@ h1{margin-bottom:-1em}
 #bookingKitContainer .bk-cal-slider{border-bottom:none !important}
 #bookingKitContainer .bk-ev-grid-head{border-bottom:none !important}
 #bookingKitContainer .bk-start-time{color:#fff !important}
+#bookingKitContainer .bk-grid-a.bk-ev-grid-head .calendar-row td a{font-weight:bold !important}
+#bookingKitContainer #bk-header-calendar-container_evgt .bk-active-day{border:2px solid !important;border-color:#278939 !important}
 #bookingKitContainer .bk-event-content .bk-header-box{display:none}
 #buchung h3{margin:1em 0 3em 0}
 .screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute !important;width:1px;word-wrap:normal !important}
