@@ -190,9 +190,9 @@ require get_template_directory() . '/inc/customizer.php';
 /**
  * Load WooCommerce compatibility file.
  */
-if (class_exists('WooCommerce')) {
-	require get_template_directory() . '/inc/woocommerce.php';
-}
+// if (class_exists('WooCommerce')) {
+// 	require get_template_directory() . '/inc/woocommerce.php';
+// }
 
 function all_enqueue_scripts()
 {
@@ -236,8 +236,8 @@ function create_sitemap()
 }
 
 // Woocommerce
-remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
-add_action( 'init', 'woo_remove_wc_breadcrumbs' );
-function woo_remove_wc_breadcrumbs() {
-    remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
-}
+// remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+// add_action( 'init', 'woo_remove_wc_breadcrumbs' );
+// function woo_remove_wc_breadcrumbs() {
+//     remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+// }
