@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
 	headerScripts($);
-	slick($);
 	cookieLayer($);
 });
 
@@ -46,38 +45,6 @@ function scrollHeader($, that) {
 	}
 }
 
-function slick($) {
-	$(".slider .blocks-gallery-grid").slick({
-		dots: true,
-		arrows: true,
-	});
-
-	$(".gallery-slider .blocks-gallery-grid").slick({
-		mobileFirst: true,
-		responsive: [
-			{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 4,
-				},
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 2,
-				},
-			},
-			{
-				breakpoint: 567,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-					arrows: true,
-				},
-			},
-		],
-	});
-}
 
 function cookieLayer($) {
 	var acceptCookies = getCookie("acceptCookies");

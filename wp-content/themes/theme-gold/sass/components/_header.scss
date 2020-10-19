@@ -29,7 +29,11 @@ $menuHeight: 5rem;
 	}
 
 	.site-title {
+		transition: font-size 0.5s;
 		padding: 0.3em 0 0.3em 0;
+		font-weight: bold;
+		font-size: $font-veryverybig;
+		text-transform: none;
 		img {
 			width: 100%;
 			height: auto;
@@ -140,7 +144,7 @@ $menuHeight: 5rem;
 	.primary-menu {
 		max-height: 0px;
 		overflow: hidden;
-		transition: max-height 0.9s;
+		transition: max-height 0.5s;
 		position: fixed;
 		width: 100%;
 		top: $menuHeight - 0.2rem;
@@ -277,6 +281,7 @@ $menuHeight: 5rem;
 		&.header-big {
 			padding: 0.7em 0;	
 			.site-title {
+				font-size: $font-veryveryverybig;
 				img {
 					max-width: 240px;
 				}

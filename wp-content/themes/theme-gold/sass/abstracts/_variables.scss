@@ -41,8 +41,8 @@ $color-border-abbr: #666;
 
 
 // stylelint-disable value-keyword-case
-$font-main: Quattrocento, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-$font-headings: Montserrat, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$font-main: Lato, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$font-headings: Karla, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
 // stylelint-enable value-keyword-case
 $font-code: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
@@ -50,6 +50,8 @@ $font-pre: "Courier 10 Pitch", courier, monospace;
 $font-line-height-body: 1.5;
 $font-line-height-pre: 1.6;
 
+$font-veryveryveryverybig: 2.6rem;
+$font-veryveryverybig: 2.6rem;
 $font-veryverybig: 2.2rem;
 $font-verybig: 1.8rem;
 $font-big: 1.1rem;
@@ -57,7 +59,7 @@ $font-normal: 1rem;
 $font-small: 0.8rem;
 $font-verysmall: 0.5rem;
 
-$border-radius: 3px;
+$border-radius: 1px;
 
 
 $size-site-main: 100%;
@@ -67,6 +69,8 @@ $size-md: 768px;
 $size-lg: 992px;
 $size-xl: 1200px;
 $size-xxl: 1600px;
+
+$size-content-center: 520px;
 
 
 $columns: (

@@ -18,8 +18,8 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="preload" href="/wp-content/themes/theme-gold/fonts/Montserrat-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-	<link rel="preload" href="/wp-content/themes/theme-gold/fonts/Montserrat-Medium.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+	<link rel="preload" href="/wp-content/themes/theme-gold/fonts/Karla-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+	<link rel="preload" href="/wp-content/themes/theme-gold/fonts/Lato-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 	<?php wp_head(); ?>
 </head>
 
@@ -31,14 +31,7 @@
 			<nav id="site-navigation" class="main-navigation">
 				<div class="container">
 					<div class="row">
-						<div class="col col-8 col-sm-3">
-							<div class="site-title">
-								<?php
-								the_custom_logo();
-								?>
-							</div>
-						</div>
-						<div class="col col-4 col-sm-9 menu-row">
+					<div class="col col-4 col-sm-9 menu-row">
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" title="<?php esc_html_e('Toggle Menu', 'theme-gold'); ?>">
 								<div class="icon">
 									<div class="line"></div>
@@ -64,6 +57,11 @@
 									);
 								endif;
 								?>
+							</div>
+						</div>
+						<div class="col col-8 col-sm-3">
+							<div class="site-title">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>">k.</a>
 							</div>
 						</div>
 					</div>
