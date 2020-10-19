@@ -100,7 +100,7 @@ label{width:100%;font-size:1.1rem}
 form p{margin-bottom:.7em}
 html{font-size:16px}
 body{background:#fff}
-main{margin-left:1.5em;margin-right:1.5em;-webkit-transition:all .5s;transition:all .5s;margin-top:80px}
+main{margin-left:1.5rem;margin-right:1.5rem;-webkit-transition:all .5s;transition:all .5s;margin-top:80px}
 .entry-content>figure{margin-top:-6rem}
 .full-width{width:100vw;position:relative;margin-left:-52vw;left:50%;overflow:hidden}
 article{margin-bottom:3em}
@@ -114,7 +114,7 @@ h1{margin-bottom:-1em}
 .main-navigation{display:block;width:100%;background-color:#fff;border-bottom:3px solid #093a3e;position:fixed;left:0;top:0;z-index:999;height:5rem;text-transform:uppercase}
 .main-navigation .container,.main-navigation .row,.main-navigation .col{height:100%}
 .main-navigation a{text-decoration:none}
-.main-navigation a.focus,.main-navigation a:hover{text-decoration:underline}
+.main-navigation a.focus,.main-navigation a:hover{color:#3aafb9}
 .main-navigation .site-title{-webkit-transition:font-size .5s;transition:font-size .5s;font-weight:bold;font-size:2.6rem;text-transform:none}
 .main-navigation .site-title img{width:100%;height:auto;max-width:180px}
 .main-navigation ul{list-style:none;margin:0;padding-left:0}
@@ -170,7 +170,7 @@ h3{font-size:1.1rem}
 .main-navigation .col.menu-row{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
 .main-navigation.toggled .primary-menu{opacity:1;position:static;width:auto;height:auto;top:auto;left:auto;z-index:auto}
 .main-navigation .primary-menu{max-height:none;position:inherit;width:inherit;top:inherit;left:inherit;z-index:inherit;background-color:inherit;font-size:1.8rem;border-bottom:inherit;border-top:inherit;-webkit-box-shadow:none;box-shadow:none}
-.main-navigation .primary-menu li{max-width:inherit;padding-top:inherit;padding-left:inherit;padding-right:inherit;margin-left:0}
+.main-navigation .primary-menu li{max-width:inherit;padding-top:inherit;padding-left:inherit;padding-right:inherit;margin-left:1.5rem}
 .main-navigation .primary-menu li:first-child{padding-top:inherit}
 .main-navigation .primary-menu li:last-child{padding-bottom:.2em}
 .main-navigation .site-title{width:auto}

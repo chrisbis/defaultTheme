@@ -8,8 +8,8 @@ body {
 // Start
 $header-size: 80px;
 main {
-	margin-left: 1.5em;
-	margin-right: 1.5em;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
 	transition: all 0.5s;
 	margin-top: $header-size;
 	@media screen and (min-width: $size-md) {

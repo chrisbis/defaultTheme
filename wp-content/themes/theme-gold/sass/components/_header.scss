@@ -24,7 +24,7 @@ $menuHeight: 5rem;
 
 		&.focus,
 		&:hover {
-			text-decoration: underline;
+			color: $color-secondary;
 		}
 	}
 
@@ -262,7 +262,7 @@ $menuHeight: 5rem;
 				padding-top: inherit;
 				padding-left: inherit;
 				padding-right: inherit;
-				margin-left: 0;
+				margin-left: 1.5rem;
 			}
 		}
 
