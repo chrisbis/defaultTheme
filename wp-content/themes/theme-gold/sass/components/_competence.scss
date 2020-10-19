@@ -1,0 +1,12 @@
+.competence {
+    max-width: $size-content-center;
+    margin: auto;
+    margin-top: 3em;
+    p {
+        margin-bottom: 0.5em;
+    }
+    i {
+        font-size: $font-verybig;
+        margin-right: 0.5em;
+    }
+}

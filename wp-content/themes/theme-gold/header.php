@@ -31,7 +31,7 @@
 			<nav id="site-navigation" class="main-navigation">
 				<div class="container">
 					<div class="row">
-					<div class="col col-6 menu-row">
+						<div class="col col-6 menu-row">
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" title="<?php esc_html_e('Toggle Menu', 'theme-gold'); ?>">
 								<div class="icon">
 									<div class="line"></div>

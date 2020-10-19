@@ -43,9 +43,9 @@ h1 {
 }
 
 h2 {
-	padding-top: 8rem;
+	padding-top: 6rem;
 	@media screen and (min-width: $size-xl) {
-		padding-top: 9rem;
+		padding-top: 7rem;
 	}
 }
 
@@ -57,7 +57,7 @@ h3 {
 
 section:first-child {
 	h1 {
-		padding-top: 9rem;
+		padding-top: 7rem;
 	}
 }
 

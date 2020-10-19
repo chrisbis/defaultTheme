@@ -246,7 +246,7 @@ $menuHeight: 5rem;
 			left: inherit;
 			z-index: inherit;
 			background-color: inherit;
-			font-size: inherit;
+			font-size: $font-verybig;
 			border-bottom:inherit;
 			border-top: inherit;
 			box-shadow: none;
@@ -256,12 +256,13 @@ $menuHeight: 5rem;
 					padding-top: inherit;
 				}
 				&:last-child {
-					padding-bottom: inherit;
+					padding-bottom: .2em;
 				}
 				max-width: inherit;
 				padding-top: inherit;
 				padding-left: inherit;
 				padding-right: inherit;
+				margin-left: 0;
 			}
 		}
 

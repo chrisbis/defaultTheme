@@ -17,7 +17,7 @@ textarea,
 select {
 	color: $color-black;
     border: none;
-    background-color: transparentize($color: $color-primary, $amount: 0.7);
+    background-color: #fff;
 	padding: 3px;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -25,7 +25,7 @@ select {
 
 	&:focus {
 		color: $color-text-input-focus;
-		background-color: transparentize($color: $color-primary, $amount: 0.1);
+		background-color: transparentize($color: $color-primary, $amount: 0.5);
 		color: #fff;
 		border: none;
 		outline: none;

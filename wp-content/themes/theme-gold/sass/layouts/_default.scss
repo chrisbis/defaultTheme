@@ -8,6 +8,8 @@ body {
 // Start
 $header-size: 80px;
 main {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
 	transition: all 0.5s;
 	margin-top: $header-size;
 	@media screen and (min-width: $size-md) {
@@ -29,7 +31,7 @@ main {
 
 .entry-content {
 	> figure {
-		margin-top: -8rem;
+		margin-top: -6rem;
 	}
 }
 
@@ -54,8 +56,6 @@ article {
 }
 
 section {
-	margin-bottom: -2em;
-
 	p:last-child {
 		margin-bottom: 0;
 	}
@@ -73,4 +73,13 @@ h1 {
 #Kontakt {
 	max-width: $size-content-center;
 	margin: auto;
+	padding-bottom: 5em;
+}
+
+#page .container {
+	background-color: transparentize($color: $color-primary, $amount: 0.9);
+}
+
+#page header .container, #page footer .container {
+	background-color: transparent;
 }
