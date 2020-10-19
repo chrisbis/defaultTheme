@@ -30,10 +30,10 @@ $menuHeight: 5rem;
 
 	.site-title {
 		transition: font-size 0.5s;
-		padding: 0.3em 0 0.3em 0;
 		font-weight: bold;
-		font-size: $font-veryverybig;
+		font-size: $font-veryveryverybig;
 		text-transform: none;
+
 		img {
 			width: 100%;
 			height: auto;
@@ -259,7 +259,7 @@ $menuHeight: 5rem;
 					padding-bottom: inherit;
 				}
 				max-width: inherit;
-				margin-right: 15px;
+				padding-top: inherit;
 				padding-left: inherit;
 				padding-right: inherit;
 			}
@@ -281,7 +281,7 @@ $menuHeight: 5rem;
 		&.header-big {
 			padding: 0.7em 0;	
 			.site-title {
-				font-size: $font-veryveryverybig;
+				font-size: $font-veryveryveryverybig;
 				img {
 					max-width: 240px;
 				}
@@ -298,14 +298,15 @@ $menuHeight: 5rem;
 		font-size: $font-big;
 
 		.site-title {
+			font-size: $font-veryveryveryverybig;
 			img {
 				max-width: 180px;
 			}
 		}
 
 		&.header-big {
-			padding: 0.4em 0;	
 			.site-title {
+				font-size: $font-veryveryveryveryverybig;
 				img {
 					max-width: 260px;
 				}

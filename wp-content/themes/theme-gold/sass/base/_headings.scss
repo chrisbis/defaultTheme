@@ -15,7 +15,7 @@ h6 {
 	&::after {
 		content: "";
 		display: inline-block;
-		border-bottom: 2px solid $color-primary;
+		border-bottom: 2px solid $color-secondary;
 		width: 85%;
 		position: absolute;
 		bottom: -5px;
@@ -43,9 +43,9 @@ h1 {
 }
 
 h2 {
-	padding-top: 6rem;
+	padding-top: 8rem;
 	@media screen and (min-width: $size-xl) {
-		padding-top: 7rem;
+		padding-top: 9rem;
 	}
 }
 
@@ -57,7 +57,7 @@ h3 {
 
 section:first-child {
 	h1 {
-		padding-top: 7rem;
+		padding-top: 9rem;
 	}
 }
 
