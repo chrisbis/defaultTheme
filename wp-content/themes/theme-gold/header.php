@@ -69,4 +69,7 @@
 				</div>
 			</nav>
 		</header>
+		<div class="header-image">
+			<span class="container header-image-text">Webentwicklung aus Berlin.</span>
+		</div>
 		<div class="container">

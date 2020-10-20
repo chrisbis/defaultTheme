@@ -306,3 +306,55 @@ $menuHeight: 5rem;
 // 		}
 // 	}
 // }
+
+.header-image {
+	background: url("https://www.christophkleber.de/wp-content/uploads/2020/10/header-scaled.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: 2em;
+	height: 75vh;
+	max-height: 700px;
+	position: relative;
+
+	.header-image-text {
+		display: none;
+		position: relative;
+
+		@media screen and (min-width: $size-lg) {
+			display: block;
+			padding-top: 50vh;
+			background-color: transparent !important;
+			color: $color-black;
+			font-size: $font-big;
+			text-align: right;
+
+			&::after {
+				content: "";
+				display: inline-block;
+				border-bottom: 2px solid #093a3e;
+				width: 170px;
+				position: absolute;
+				bottom: -5px;
+				right: 15px;
+			}
+		}
+
+		@media screen and (min-width: $size-xl) {
+			padding-top: 45vh;
+			font-size: $font-verybig;
+
+			&::after {
+				width: 270px;
+			}
+		}
+
+		@media screen and (min-width: $size-xxl) {
+			padding-top: 35vh;
+			font-size: $font-veryverybig;
+			
+			&::after {
+				width: 370px;
+			}
+		}
+	}
+}

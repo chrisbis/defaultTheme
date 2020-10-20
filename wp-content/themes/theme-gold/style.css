@@ -100,7 +100,7 @@ label{width:100%;font-size:1.1rem}
 form p{margin-bottom:.7em}
 html{font-size:16px}
 body{background:#fff}
-main{margin-left:1.5rem;margin-right:1.5rem;-webkit-transition:all .5s;transition:all .5s;margin-top:80px}
+main{margin-left:1.5rem;margin-right:1.5rem;-webkit-transition:all .5s;transition:all .5s;margin-top:-50px}
 .entry-content>figure{margin-top:-6rem}
 .full-width{width:100vw;position:relative;margin-left:-52vw;left:50%;overflow:hidden}
 section{-webkit-columns:1;-moz-columns:1;columns:1}
@@ -135,6 +135,8 @@ h1{margin-bottom:-1em}
 .main-navigation .primary-menu li:last-child{padding-bottom:2em}
 .main-navigation.toggled .primary-menu{max-height:1000px;-webkit-box-shadow:0 4px 5px 0 rgba(0,0,0,0.75);box-shadow:0 4px 5px 0 rgba(0,0,0,0.75)}
 .menu-toggle,.main-navigation.toggled ul{display:block}
+.header-image{background:url("https://www.christophkleber.de/wp-content/uploads/2020/10/header-scaled.jpg");background-size:cover;background-position:center;margin-top:2em;height:75vh;max-height:700px;position:relative}
+.header-image .header-image-text{display:none;position:relative}
 .site-footer{background-color:#fff;border-top:10px solid #093a3e;font-size:.9rem;-webkit-box-shadow:0 1px 10px 0 rgba(0,0,0,0.75);box-shadow:0 1px 10px 0 rgba(0,0,0,0.75)}
 .site-footer ul{list-style-type:none;padding-left:0}
 .site-footer .footer-menus .footer-menu{padding-top:1em;padding-bottom:1em;border-bottom:1px solid #093a3e}
@@ -177,8 +179,14 @@ h3{font-size:1.1rem}
 .site-footer{border-top:2px solid #093a3e}
 .site-footer .footer-menus{padding:1em 0}
 .site-footer .footer-menus .footer-menu{padding-top:0;padding-bottom:0;border-bottom:0}
-}@media screen and (min-width:992px){#cookie-layer .button,#cookie-layer .text{font-size:1rem}
+}@media screen and (min-width:992px){.header-image .header-image-text{display:block;padding-top:50vh;background-color:transparent !important;color:#000;font-size:1.1rem;text-align:right}
+.header-image .header-image-text::after{content:"";display:inline-block;border-bottom:2px solid #093a3e;width:170px;position:absolute;bottom:-5px;right:15px}
+#cookie-layer .button,#cookie-layer .text{font-size:1rem}
 }@media screen and (min-width:1200px){h2{padding-top:7rem}
 .full-width{margin-left:-51vw}
+.header-image .header-image-text{padding-top:45vh;font-size:1.8rem}
+.header-image .header-image-text::after{width:270px}
 }@media screen and (min-width:1600px){.full-width{margin-left:-50.5vw}
+.header-image .header-image-text{padding-top:35vh;font-size:2.2rem}
+.header-image .header-image-text::after{width:370px}
 }
