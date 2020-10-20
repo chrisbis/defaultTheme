@@ -49,6 +49,10 @@
 						<i class="fa fa-envelope"></i>
 						info@christophkleber.de
 					</a>
+					<a href="https://www.xing.com/profile/Christoph_Kleber3/" target="_blank">
+						<i class="fab fa-xing-square"></i>
+						Christoph Kleber
+					</a>
 				</div>
 			</div>
 		</div>

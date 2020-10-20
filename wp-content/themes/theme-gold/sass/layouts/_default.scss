@@ -12,21 +12,21 @@ main {
 	margin-right: 1.5rem;
 	transition: all 0.5s;
 	margin-top: $header-size;
-	@media screen and (min-width: $size-md) {
-		&.header-big {
-			margin-top: $header-size + 5px;
-		}
-	}
-	@media screen and (min-width: $size-lg) {
-		&.header-big {
-			margin-top: $header-size + 20px;
-		}
-	}
-	@media screen and (min-width: $size-xl) {
-		&.header-big {
-			margin-top: $header-size + 35px;
-		}
-	}
+	// @media screen and (min-width: $size-md) {
+	// 	&.header-big {
+	// 		margin-top: $header-size + 5px;
+	// 	}
+	// }
+	// @media screen and (min-width: $size-lg) {
+	// 	&.header-big {
+	// 		margin-top: $header-size 5px;
+	// 	}
+	// }
+	// @media screen and (min-width: $size-xl) {
+	// 	&.header-big {
+	// 		margin-top: $header-size + 35px;
+	// 	}
+	// }
 }
 
 .entry-content {
@@ -49,10 +49,6 @@ main {
 	@media screen and (min-width: $size-xxl) {
 		margin-left: -50.5vw;
 	}
-}
-
-article {
-	margin-bottom: 3em;
 }
 
 section {

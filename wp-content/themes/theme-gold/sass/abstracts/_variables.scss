@@ -1,7 +1,7 @@
 @import 'mixins/mixins';
 
 $color-primary: #093A3E;
-$color-secondary: #3AAFB9;
+$color-secondary: #1A815E;
 $color-third: #64E9EE;
 $color-accent: #97C8EB;
 
@@ -50,11 +50,13 @@ $font-pre: "Courier 10 Pitch", courier, monospace;
 $font-line-height-body: 1.5;
 $font-line-height-pre: 1.6;
 
+$font-veryveryveryveryveryverybig: 3.8rem;
 $font-veryveryveryveryverybig: 3.4rem;
 $font-veryveryveryverybig: 3rem;
 $font-veryveryverybig: 2.6rem;
 $font-veryverybig: 2.2rem;
 $font-verybig: 1.8rem;
+$font-abitverybig: 1.3rem;
 $font-big: 1.1rem;
 $font-normal: 1rem;
 $font-small: 0.8rem;

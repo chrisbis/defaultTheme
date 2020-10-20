@@ -11,7 +11,7 @@ $menuHeight: 5rem;
 	z-index: 999;
 	height: $menuHeight;
 	text-transform: uppercase;
-
+	font-size: $font-big;
 
 	.container,
 	.row,
@@ -33,12 +33,6 @@ $menuHeight: 5rem;
 		font-weight: bold;
 		font-size: $font-veryveryverybig;
 		text-transform: none;
-
-		img {
-			width: 100%;
-			height: auto;
-			max-width: 180px;
-		}
 	}
 
 	ul {
@@ -84,15 +78,6 @@ $menuHeight: 5rem;
 		border: none;
 		width: $widthHeight;
 		height: $widthHeight;
-
-		// &:focus {
-		// 	outline: none;
-		// 	background-color: $color-secondary;
-
-		// 	.line {
-		// 		background-color: $color-black;
-		// 	}
-		// }
 
 		.icon {
 			display: block;
@@ -141,6 +126,7 @@ $menuHeight: 5rem;
 			}
 		}
 	}
+
 	.primary-menu {
 		max-height: 0px;
 		overflow: hidden;
@@ -151,7 +137,6 @@ $menuHeight: 5rem;
 		left: 0;
 		z-index: 2;
 		background-color: $color-white;
-		font-size: $font-big;
 		border-bottom: 1px solid $color-primary;
 		border-top: 3px solid $color-primary;
 		overflow-y: hidden;
@@ -188,15 +173,6 @@ $menuHeight: 5rem;
 	display: block;
 }
 
-@media screen and (min-width: $size-sm) {
-	.main-navigation {
-		.primary-menu {
-			font-size: $font-verybig;
-		}
-	}
-}
-
-
 @media screen and (min-width: $size-md) {
 	.menu-toggle {
 		display: none;
@@ -204,9 +180,9 @@ $menuHeight: 5rem;
 
 	.main-navigation {
 		height: auto;
-		font-size: $font-normal;
+		font-size: $font-abitverybig;
 		transition: all 0.5s;
-		padding: 0.2em;
+		padding: 0;
 		box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
 
 		ul {
@@ -246,20 +222,20 @@ $menuHeight: 5rem;
 			left: inherit;
 			z-index: inherit;
 			background-color: inherit;
-			font-size: $font-verybig;
 			border-bottom:inherit;
 			border-top: inherit;
 			box-shadow: none;
 	
 			li {
+				padding-bottom: 0;
 				&:first-child {
-					padding-top: inherit;
+					padding-top: 0;
 				}
 				&:last-child {
-					padding-bottom: .2em;
+					padding-bottom: 0;
 				}
 				max-width: inherit;
-				padding-top: inherit;
+				padding-top: 0;
 				padding-left: inherit;
 				padding-right: inherit;
 				margin-left: 1.5rem;
@@ -268,53 +244,65 @@ $menuHeight: 5rem;
 
 		.site-title {
 			width: auto;
-			img {
-				transition: all 0.5s;
-				max-width: 230px;
-			}
 		}
 	
 		.menu-wrapper {
 			transition: all 0.5s;
-			margin-top: 1.2em;
+			margin-top: 0.9em;
 		}
 
 		&.header-big {
-			padding: 0.7em 0;	
+			padding: 0.3em 0;	
 			.site-title {
 				font-size: $font-veryveryveryverybig;
-				img {
-					max-width: 240px;
-				}
 			}
 			.menu-wrapper {
-				margin-top: 2rem;
+				margin-top: 1.8rem;
 			}
 		}
 	}
 }
 
-@media screen and (min-width: $size-lg) {
-	.main-navigation {
-		font-size: $font-big;
+// @media screen and (min-width: $size-lg) {
+// 	.main-navigation {
+// 		font-size: $font-verybig;
 
-		.site-title {
-			font-size: $font-veryveryveryverybig;
-			img {
-				max-width: 180px;
-			}
-		}
+// 		.site-title {
+// 			font-size: $font-veryveryveryveryverybig;
+// 		}
 
-		&.header-big {
-			.site-title {
-				font-size: $font-veryveryveryveryverybig;
-				img {
-					max-width: 260px;
-				}
-			}
-			.menu-wrapper {
-				margin-top: 2.2rem;
-			}
-		}
-	}
-}
+// 		&.header-big {
+// 			padding: 0.1em 0;	
+// 			.site-title {
+// 				font-size: $font-veryveryveryveryveryverybig;
+// 			}
+// 			.menu-wrapper {
+// 				margin-top: 2.2rem;
+// 			}
+// 		}
+// 	}
+// }
+
+// @media screen and (min-width: $size-xl) {
+// 	.main-navigation {
+
+// 		.site-title {
+
+// 		}
+
+// 		.menu-wrapper {
+// 			transition: all 0.5s;
+// 			margin-top: 0.7em;
+// 		}
+
+// 		&.header-big {
+// 			padding: 0.35em 0;	
+
+// 			.site-title {
+// 			}
+// 			.menu-wrapper {
+// 				margin-top: 2.2rem;
+// 			}
+// 		}
+// 	}
+// }
