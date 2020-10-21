@@ -100,14 +100,15 @@ label{width:100%;font-size:1.1rem}
 form p{margin-bottom:.7em}
 html{font-size:16px}
 body{background:#fff}
-main{margin-left:1.5rem;margin-right:1.5rem;-webkit-transition:all .5s;transition:all .5s;margin-top:-50px}
+main{margin-left:1.5rem;margin-right:1.5rem;-webkit-transition:all .5s;transition:all .5s;padding-top:20px;padding-bottom:5em}
+.home main{padding-top:0;margin-top:-40px}
 .entry-content>figure{margin-top:-6rem}
 .full-width{width:100vw;position:relative;margin-left:-52vw;left:50%;overflow:hidden}
 section{-webkit-columns:1;-moz-columns:1;columns:1}
 section p:last-child{margin-bottom:0}
 section ul{margin-bottom:2em}
 h1{margin-bottom:-1em}
-#Kontakt{max-width:520px;margin:auto;padding-bottom:5em}
+#Kontakt{max-width:520px;margin:auto}
 #page .container{background-color:rgba(9,58,62,0.1)}
 #page header .container,#page footer .container{background-color:transparent}
 .main-navigation{display:block;width:100%;background-color:#fff;border-bottom:3px solid #093a3e;position:fixed;left:0;top:0;z-index:999;height:5rem;text-transform:uppercase;font-size:1.1rem}
@@ -135,7 +136,7 @@ h1{margin-bottom:-1em}
 .main-navigation .primary-menu li:last-child{padding-bottom:2em}
 .main-navigation.toggled .primary-menu{max-height:1000px;-webkit-box-shadow:0 4px 5px 0 rgba(0,0,0,0.75);box-shadow:0 4px 5px 0 rgba(0,0,0,0.75)}
 .menu-toggle,.main-navigation.toggled ul{display:block}
-.header-image{background:url("https://www.christophkleber.de/wp-content/uploads/2020/10/header-scaled.jpg");background-size:cover;background-position:center;margin-top:2em;height:75vh;max-height:700px;position:relative}
+.header-image{background:url("/wp-content/uploads/2020/10/header-scaled-e1603278284386.jpg");background-size:cover;background-position:center;margin-top:2em;height:75vh;max-height:600px;position:relative}
 .header-image .header-image-text{display:none;position:relative}
 .site-footer{background-color:#fff;border-top:10px solid #093a3e;font-size:.9rem;-webkit-box-shadow:0 1px 10px 0 rgba(0,0,0,0.75);box-shadow:0 1px 10px 0 rgba(0,0,0,0.75)}
 .site-footer ul{list-style-type:none;padding-left:0}

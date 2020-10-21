@@ -21,6 +21,14 @@
 	<link rel="preload" href="/wp-content/themes/theme-gold/fonts/Karla-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 	<link rel="preload" href="/wp-content/themes/theme-gold/fonts/Lato-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 	<link rel="preload" href="/wp-content/themes/theme-gold/fonts/Lato-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+	
+	<meta property="og:image" content="<?php echo esc_url( home_url() ); ?>/wp-content/uploads/2020/10/favicon_large.png" />
+	<meta property="og:description" content="Kompetenzen in der Webentwicklung seit 2015 - Breitgefächerte Erfahrungen in der Entwicklung, der Konzeption, dem Design und dem (agilen) Projektmanagement – Selbstständig oder im Team." />
+	<meta property="og:title" content="Christoph Kleber -  Webentwicklung, Design & Konzeption" />
+	<meta property="og:type" content="Website" />
+	<meta property="og:url" content="<?php echo esc_url( home_url() ); ?>" />
+	<meta property="og:site_name" content="Christoph Kleber" />
+
 	<?php wp_head(); ?>
 </head>
 
