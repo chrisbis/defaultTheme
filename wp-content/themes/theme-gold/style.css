@@ -104,13 +104,14 @@ html{font-size:16px}
 body{background:#fff}
 main{-webkit-transition:all .5s;transition:all .5s;margin-top:80px}
 .entry-content>figure{margin-top:-6rem}
-.full-width{width:100vw;position:relative;margin-left:-52vw;left:50%;overflow:hidden}
+.full-width{width:100vw;position:relative;margin-left:-50vw;left:50%;overflow:hidden}
 article{margin-bottom:3em}
 section{margin-bottom:-2em;-webkit-columns:1;-moz-columns:1;columns:1}
 section p:last-child{margin-bottom:0}
 section ul{margin-bottom:2em}
 h1{margin-bottom:-1em}
 .error-404 .page-content{padding-bottom:5em}
+#page{overflow-y:hidden}
 .main-navigation{display:block;width:100%;background-color:#fff;border-bottom:3px solid #278939;position:fixed;left:0;top:0;z-index:999;height:5rem;text-transform:uppercase}
 .main-navigation .container,.main-navigation .row,.main-navigation .col{height:100%}
 .main-navigation a{text-decoration:none}
@@ -267,7 +268,5 @@ h3{font-size:1.1rem}
 #buchung h3{margin-top:2em}
 }@media screen and (min-width:1200px){h2{padding-top:7rem}
 main.header-big{margin-top:115px}
-.full-width{margin-left:-51vw}
 .header-slider.wp-block-gallery figure figcaption a{top:3em}
-}@media screen and (min-width:1600px){.full-width{margin-left:-50.5vw}
 }

@@ -36,17 +36,9 @@ main {
 .full-width {
 	width: 100vw;
     position: relative;
-    margin-left: -52vw;
+    margin-left: -50vw;
     left: 50%;
 	overflow: hidden;
-
-	@media screen and (min-width: $size-xl) {
-		margin-left: -51vw;
-	}
-
-	@media screen and (min-width: $size-xxl) {
-		margin-left: -50.5vw;
-	}
 }
 
 article {
@@ -74,4 +66,8 @@ h1 {
 	.page-content {
 		padding-bottom: 5em;
 	}
+}
+
+#page {
+	overflow-y: hidden;
 }
