@@ -77,6 +77,36 @@ function slick($) {
 			},
 		],
 	});
+
+	$(".ratings").slick({
+		mobileFirst: true,
+        dots: false,
+        arrows: true,
+        adaptiveHeight: true,
+
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 4,
+				},
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+				},
+			},
+			{
+				breakpoint: 567,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					arrows: true,
+				},
+			},
+		],
+	});
 }
 
 function cookieLayer($) {

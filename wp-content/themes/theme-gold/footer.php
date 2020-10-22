@@ -45,17 +45,13 @@
 					?>
 				</div>
 				<div class="col-md-4 footer-menu menu-right">
-					<a href="tel:0821 79624249">
-						<i class="fa fa-phone"></i>
-						0821 79624249
-					</a>
-					<a href="mailto:info@augsburger-genuss-touren.de">
+					<a href="mailto:info@christophkleber.de">
 						<i class="fa fa-envelope"></i>
-						info@augsburger-genuss-touren.de
+						info@christophkleber.de
 					</a>
-					<a href="https://www.instagram.com/augsburger_genuss_touren" target="_blank">
-						<i class="fab fa-instagram"></i>
-						Augsburger Genuss Touren
+					<a href="https://www.xing.com/profile/Christoph_Kleber3/" target="_blank">
+						<i class="fab fa-xing-square"></i>
+						Christoph Kleber
 					</a>
 				</div>
 			</div>
@@ -67,11 +63,8 @@
 				<div class="col-md-3">
 					<i class="fa fa-copyright"></i>
 					<?php
-					printf(esc_html__(' 2020 Augsburger Genuss Touren', 'theme-gold'), '');
+					printf(esc_html__(' 2020 Christoph Kleber', 'theme-gold'), '');
 					?>
-				</div>
-				<div class="col-md-3">
-					Seite erstellt von <a href="mailto:c.kleber@aol.com">Christoph Kleber</a>.
 				</div>
 			</div>
 		</div>
