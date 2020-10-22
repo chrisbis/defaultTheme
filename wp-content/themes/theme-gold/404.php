@@ -13,24 +13,11 @@ get_header();
 	<main id="primary" class="site-main main header-big">
 
 		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Seit wurde leider nicht gefunden.', 'theme-gold' ); ?></h1>
-			</header><!-- .page-header -->
 
 			<div class="page-content">
-				<p><?php esc_html_e( 'Sie gelangen über das Logo zurück zur Startseite.', 'theme-gold' ); ?></p>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-
+				<h1 class="entry-title"><?php esc_html_e( 'Seite nicht gefunden.', 'theme-gold' ); ?></h1>
+				<p><?php esc_html_e( 'Leider wurde Ihre gewünschte Seite nicht gefunden. Sie gelangen über das Logo zurück zur Startseite.', 'theme-gold' ); ?></p>
+		
 			</div><!-- .page-content -->
 		</section><!-- .error-404 -->
 
