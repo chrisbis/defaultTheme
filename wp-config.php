@@ -29,7 +29,7 @@
  * Ersetze datenbankname_hier_einfuegen
  * mit dem Namen der Datenbank, die du verwenden möchtest.
  */
-define( 'DB_NAME', 'petticap' );
+define( 'DB_NAME', 'm2420dbgenuss' );
 
 /**
  * Ersetze benutzername_hier_einfuegen
