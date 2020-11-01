@@ -296,7 +296,7 @@ $slick-opacity-not-active: 0.25 !default;
 	font-size: $font-big;
 	
 	&::after {
-		content: "\f787 - \f2e7 - \f7ef";
+		content: "\f787  -  \f2e7  -  \f7ef";
 		display: inline-block;
 		font-style: normal;
 		font-variant: normal;
@@ -306,7 +306,7 @@ $slick-opacity-not-active: 0.25 !default;
 		font-weight: 900;
 		position: absolute;
 		left: 0;
-		top: 2em;
+		bottom: -1.2em;
 		font-size: $font-normal;
 		color: $color-primary;
 
