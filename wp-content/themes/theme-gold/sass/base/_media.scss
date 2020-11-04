@@ -49,10 +49,15 @@ img {
 }
 
 .gallery-no-slider {
+	.blocks-gallery-grid {
+		justify-content: center;
+	}
+
 	.blocks-gallery-item {
 		width: 100%;
 		margin-bottom: 1em;
 	}
+	
 	@media screen and (min-width: $size-lg) {
 		// width: 33%;
 	}
