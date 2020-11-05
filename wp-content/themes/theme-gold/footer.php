@@ -56,11 +56,11 @@
 							<br>
 							<a href="https://www.instagram.com/petticap/" target="_blank" rel="noopener noreferrer">
 								<i class="fab fa-instagram"></i>
-								PettiCap on Instagram
+								pettiCap on Instagram
 							</a>
 							<a href="https://www.facebook.com/petticap.de" target="_blank" rel="noopener noreferrer">
 								<i class="fab fa-facebook-square"></i>
-								PettiCap on Facebook
+								pettiCap on Facebook
 							</a>
 						</div>
 					</div>
@@ -71,7 +71,7 @@
 				<i class="fa fa-copyright"></i>
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( ' 2020 by PettiCap', 'theme-gold' ), '' );
+				printf( esc_html__( ' 2020 by pettiCap', 'theme-gold' ), '' );
 				?>
 			</div>
 		</div><!-- .site-info -->
