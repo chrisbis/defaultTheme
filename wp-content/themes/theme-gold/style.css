@@ -40,11 +40,10 @@ details{display:block}
 summary{display:list-item}
 template{display:none}
 [hidden]{display:none}
-body,button,input,select,optgroup,textarea{color:#000;font-family:Jost,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;font-size:1rem;line-height:1.5}
-@font-face{font-family:Jost;src:url("fonts/Jost-Light.ttf");font-weight:lighter}
-@font-face{font-family:Jost;src:url("fonts/Jost-Regular.ttf");font-weight:normal}
-@font-face{font-family:OpenSans;src:url("fonts/OpenSans-Regular.ttf");font-weight:normal}
-h1,h2,h3,h4,h5,h6{clear:both;position:relative;display:inline-block;margin-bottom:1em;font-size:1.1rem}
+body,button,input,select,optgroup,textarea{color:#000;font-family:"Red Hat",BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;font-size:1rem;line-height:1.5}
+@font-face{font-family:'Red Hat';src:url("fonts/RedHatDisplay-Medium.ttf");font-weight:bold}
+@font-face{font-family:'Red Hat';src:url("fonts/RedHatDisplay-Regular.ttf");font-weight:normal}
+h1,h2,h3,h4,h5,h6{clear:both;position:relative;display:inline-block;margin-bottom:1em;font-size:1.1rem;font-weight:bold}
 h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{content:"";display:inline-block;border-bottom:2px solid #4c5c68;width:100%;position:absolute;bottom:-5px;left:0}
 h1{margin-top:0;padding-top:7rem}
 h2{padding-top:7rem}
@@ -73,6 +72,7 @@ figure{margin:0}
 img{max-height:400px}
 .gallery{margin-bottom:1.5em;display:grid;grid-gap:1.5em}
 .gallery-item{display:inline-block;text-align:center;width:100%}
+.gallery-no-slider>ul{width:100%}
 .gallery-no-slider .blocks-gallery-grid{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .gallery-no-slider .blocks-gallery-item{width:100%;margin-bottom:1em}
 .gallery-columns-2{grid-template-columns:repeat(2,1fr)}
