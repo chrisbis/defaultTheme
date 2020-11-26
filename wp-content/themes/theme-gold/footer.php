@@ -71,7 +71,7 @@
 				<i class="fa fa-copyright"></i>
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( ' 2020 by pettiCap', 'theme-gold' ), '' );
+				printf( esc_html__( ' 2020 by pettiCap®', 'theme-gold' ), '' );
 				?>
 			</div>
 		</div><!-- .site-info -->

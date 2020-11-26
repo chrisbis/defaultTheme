@@ -174,7 +174,7 @@ article{margin-bottom:3em}
 .header-slider.wp-block-gallery .slick-slide:nth-child(2) figure img{-o-object-position:left;object-position:left}
 .header-slider.wp-block-gallery .slick-slide:nth-child(2) figcaption{width:52%;padding-top:3%}
 .header-slider.wp-block-gallery .slick-slide:nth-child(3) figcaption{color:#fff}
-.header-slider.wp-block-gallery .slick-slide:nth-child(6) figure img{-o-object-position:right;object-position:right}
+.header-slider.wp-block-gallery .slick-slide:nth-child(6) figure img{-o-object-position:left;object-position:left}
 .header-slider.wp-block-gallery figure{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .header-slider.wp-block-gallery figure img{-o-object-fit:cover;object-fit:cover;width:auto;min-height:150px}
 .header-slider.wp-block-gallery figure figcaption{display:block;color:#000;margin:0;font-size:1rem;background:transparent;text-align:left;padding-top:1.5em;z-index:1;top:0;left:0;width:60%;max-width:500px;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
