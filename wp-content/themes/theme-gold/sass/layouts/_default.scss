@@ -26,11 +26,10 @@ main {
 }
 
 .full-width {
-	width: 99vw;
+	width: 100vw;
     position: relative;
     margin-left: -50vw;
     left: 50%;
-    overflow: hidden;
 }
 
 article {
@@ -39,4 +38,8 @@ article {
 
 #idee img {
 	max-height: none;
+}
+
+#page {
+	overflow-y: hidden;
 }

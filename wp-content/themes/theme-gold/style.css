@@ -103,9 +103,10 @@ html{font-size:15px}
 body{background:#fff}
 main{-webkit-transition:all .5s;transition:all .5s;margin-top:4.8rem}
 .entry-content>figure{margin-top:-4rem}
-.full-width{width:99vw;position:relative;margin-left:-50vw;left:50%;overflow:hidden}
+.full-width{width:100vw;position:relative;margin-left:-50vw;left:50%}
 article{margin-bottom:3em}
 #idee img{max-height:none}
+#page{overflow-y:hidden}
 .main-navigation{display:block;width:100%;background-color:#fff;border-bottom:3px solid #4c5c68;position:fixed;left:0;top:0;z-index:999;height:5rem}
 .main-navigation .container,.main-navigation .row,.main-navigation .col{height:100%}
 .main-navigation a{text-decoration:none}
@@ -178,7 +179,6 @@ article{margin-bottom:3em}
 .header-slider.wp-block-gallery figure img{-o-object-fit:cover;object-fit:cover;width:auto;min-height:150px}
 .header-slider.wp-block-gallery figure figcaption{display:block;color:#000;margin:0;font-size:1rem;background:transparent;text-align:left;padding-top:1.5em;z-index:1;top:0;left:0;width:60%;max-width:500px;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
 .header-slider.wp-block-gallery figure figcaption strong{font-size:1.1rem;display:block;margin-bottom:.2em}
-.header-slider.wp-block-gallery figure figcaption strong::after{content:"®";font-size:.6em;position:absolute}
 .header-slider.wp-block-gallery figure figcaption br{display:none}
 .header-slider.wp-block-gallery figure figcaption a{display:none;position:relative;top:2em;z-index:2;border-radius:3px;background-color:#4c5c68;color:#fff;padding:.6em 1em .5em 1em;width:auto;margin:.7em 0 .7em 0;cursor:pointer;text-decoration:none}
 .header-slider.wp-block-gallery figure figcaption a:hover{background-color:#c5c3c6;color:#000;text-decoration:none}
