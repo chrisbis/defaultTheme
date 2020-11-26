@@ -49,6 +49,10 @@ img {
 }
 
 .gallery-no-slider {
+	> ul {
+		width: 100%;
+	}
+
 	.blocks-gallery-grid {
 		justify-content: center;
 	}
