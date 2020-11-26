@@ -56,11 +56,11 @@
 							<br>
 							<a href="https://www.instagram.com/petticap/" target="_blank" rel="noopener noreferrer">
 								<i class="fab fa-instagram"></i>
-								pettiCap on Instagram
+								pettiCap® on Instagram
 							</a>
 							<a href="https://www.facebook.com/petticap.de" target="_blank" rel="noopener noreferrer">
 								<i class="fab fa-facebook-square"></i>
-								pettiCap on Facebook
+								pettiCap® on Facebook
 							</a>
 						</div>
 					</div>
