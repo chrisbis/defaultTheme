@@ -141,7 +141,7 @@ article{margin-bottom:3em}
 .site-footer a i{margin-right:.3em;font-size:.9em}
 .slick-prev,.slick-next{-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;font-weight:900;font-family:"Font Awesome 5 Free",sans-serif;position:absolute;display:block;height:100%;width:30px;line-height:0;font-size:0;cursor:pointer;color:transparent;top:50%;-webkit-transition:all .5s;transition:all .5s;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);padding:0;border:0;outline:0;z-index:1;background-color:transparent}
 .slick-prev:hover,.slick-next:hover{width:50px;background-color:rgba(255,255,255,0.5);outline:0;color:transparent}
-.slick-prev.slick-disabled:before,.slick-next.slick-disabled:before{opacity:.25}
+.slick-prev.slick-disabled:before,.slick-next.slick-disabled:before{opacity:.5}
 .slick-prev:before,.slick-next:before{font-size:30px;line-height:1;color:#000;opacity:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .slick-prev{left:0}
 .slick-prev:before{content:""}
@@ -149,12 +149,12 @@ article{margin-bottom:3em}
 .slick-next:before{content:""}
 .slick-slide{padding:0}
 .slick-dotted.slick-slider{margin-bottom:30px}
-.slick-dots{position:absolute;bottom:10px;list-style:none;display:block;text-align:center;padding:0;margin:0;width:100%}
+.slick-dots{position:absolute;bottom:13px;list-style:none;display:block;text-align:center;padding:0;margin:0;width:100%}
 .slick-dots li{position:relative;display:inline-block;height:20px;width:20px;margin:0 10px;padding:0;cursor:pointer}
 .slick-dots li button{border:0;background:transparent;display:block;height:20px;width:20px;outline:0;line-height:0;font-size:0;color:transparent;padding:5px;cursor:pointer}
 .slick-dots li button:hover,.slick-dots li button:focus{outline:0}
 .slick-dots li button:hover:before,.slick-dots li button:focus:before{opacity:1}
-.slick-dots li button:before{position:absolute;top:0;left:0;content:"";width:13px;height:13px;border-radius:3px;font-size:6px;line-height:20px;text-align:center;background-color:#000;opacity:.25;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.slick-dots li button:before{position:absolute;top:0;left:0;content:"";width:17px;height:17px;border-radius:3px;font-size:6px;line-height:20px;text-align:center;background-color:#000;opacity:.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .slick-dots li.slick-active button:before{color:#000;opacity:1}
 .slider,.gallery-slider,.product-slider,.product-slider-nav,.header-slider{display:block;-ms-flex-wrap:nowrap;flex-wrap:nowrap;margin-bottom:2em}
 .slider .blocks-gallery-item,.gallery-slider .blocks-gallery-item,.product-slider .blocks-gallery-item,.product-slider-nav .blocks-gallery-item,.header-slider .blocks-gallery-item{margin:0 !important}
