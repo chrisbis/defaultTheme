@@ -214,28 +214,18 @@ $slick-opacity-not-active: 0.5 !default;
 	$height: 100%;
 
 	.slick-slide {
-		&:nth-child(1) {
-			figure img {
-				object-position: left;
-			}
-		}
-		&:nth-child(2) {
-			figure img {
-				object-position: left;
-			}
-			figcaption {
-				width: 52%;
-				padding-top: 3%;
-			}
-		}
 		&:nth-child(3) {
 			figcaption {
 				color: $color-white;
 			}
+			// figcaption {
+			// 	width: 52%;
+			// 	padding-top: 3%;
+			// }
 		}
-		&:nth-child(6) {
-			figure img {
-				object-position: left;
+		&:nth-child(5) {
+			figcaption {
+				color: $color-white;
 			}
 		}
 	}

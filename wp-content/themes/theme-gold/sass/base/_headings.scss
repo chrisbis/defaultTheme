@@ -44,3 +44,14 @@ section:first-child {
 .entry-title {
 	padding-top: 2rem;
 }
+
+.headline-second {
+	font-size: $font-normal;
+	&::after {
+		content: none;
+	}
+
+	@media screen and (min-width: $size-sm) {
+		font-size: $font-big;
+	}
+}
