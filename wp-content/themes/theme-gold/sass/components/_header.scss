@@ -272,20 +272,20 @@ $menuHeight: 5rem;
 			width: auto;
 			img {
 				transition: all 0.5s;
-				max-width: 70px;
+				max-width: 105px;
 			}
 		}
 
 		.menu-wrapper {
 			transition: all 0.5s;
-			margin-top: 1.2em;
+			margin-top: 1.8em;
 		}
 
 		&.header-big {
 			padding: 0.7em 0;
 			.site-title {
 				img {
-					max-width: 80px;
+					max-width: 120px;
 				}
 			}
 			.menu-wrapper {
@@ -301,7 +301,7 @@ $menuHeight: 5rem;
 
 		.site-title {
 			img {
-				max-width: 85px;
+				max-width: 123px;
 			}
 		}
 
@@ -309,7 +309,7 @@ $menuHeight: 5rem;
 			padding: 0.4em 0;
 			.site-title {
 				img {
-					max-width: 100px;
+					max-width: 150px;
 				}
 			}
 			.menu-wrapper {

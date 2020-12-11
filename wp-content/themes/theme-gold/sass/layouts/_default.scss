@@ -14,7 +14,12 @@ main {
 	}
 	@media screen and (min-width: $size-md) {
 		&.header-big {
-			margin-top: 5.6rem;
+			margin-top: 6.6rem;
+		}
+	}
+	@media screen and (min-width: $size-lg) {
+		&.header-big {
+			margin-top: 7.5rem;
 		}
 	}
 }
