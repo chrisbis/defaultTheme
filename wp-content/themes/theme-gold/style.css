@@ -114,7 +114,7 @@ article{margin-bottom:3em}
 .main-navigation a{text-decoration:none}
 .main-navigation a.focus,.main-navigation a:hover{text-decoration:underline}
 .main-navigation .site-title{padding:.3em 0 .3em 0}
-.main-navigation .site-title img{width:100%;height:auto;max-width:85px}
+.main-navigation .site-title img{width:100%;height:auto;max-width:85px;position:relative;left:-4px}
 .main-navigation ul{list-style:none;margin:0;padding-left:0}
 .main-navigation ul ul{-webkit-box-shadow:0 3px 3px rgba(0,0,0,0.2);box-shadow:0 3px 3px rgba(0,0,0,0.2);float:left;position:absolute;top:100%;left:-999em;z-index:99999}
 .main-navigation ul ul ul{left:-999em;top:0}
