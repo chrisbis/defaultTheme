@@ -1,5 +1,5 @@
 .tabs-list {
-	margin: 1em 0 2em 0;
+	margin: 0em 0 2em 0;
 
 	.nav-tabs {
 		border-color: transparent;
@@ -96,7 +96,7 @@
 	}
 
 	@media screen and (min-width: $size-lg) {
-		margin: 4em 0 2em 0;
+		margin: 0 0 2em 0;
 
 		.nav-tabs {
 			border-color: $color-primary;
@@ -132,7 +132,13 @@
 			display: none;
 		}
 	}
+}
 
-	@media screen and (min-width: $size-xl) {
+#informationen {
+	padding-top: 4em;
+
+	@media screen and (min-width: $size-lg) {
+		padding-top: 6em;
 	}
 }
+
