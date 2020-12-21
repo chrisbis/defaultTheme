@@ -200,37 +200,39 @@ article{margin-bottom:3em}
 .tabs-list #tabSix img{max-width:250px}
 .tabs-list #tabSix .blocks-gallery-item figure{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 #informationen{padding-top:4em}
-table.shop_table_responsive thead{display:none}
-table.shop_table_responsive tr td{display:block;text-align:left;clear:both}
-table.shop_table_responsive tr td.product-remove a{text-align:left}
-table.shop_table_responsive tr td.product-remove::before{display:none}
-table.shop_table_responsive tr td.actions::before,table.shop_table_responsive tr td.download-actions::before{display:none}
-table.shop_table_responsive tr td.download-actions .button{display:block;text-align:center}
+table thead{display:none}
+table tr td{display:block;text-align:left;clear:both}
+table tr td.product-remove a{text-align:left}
+table tr td.product-remove::before{display:none}
+table tr td.actions::before,table tr td.download-actions::before{display:none}
+table tr td.download-actions .button{display:block;text-align:center}
+table p{margin-bottom:0}
 ul.products{margin:0;padding:0}
 ul.products li.product{list-style:none;position:relative;margin-bottom:2em}
 ul.products li.product img{display:block}
 ul.products li.product .button{display:block}
-.single-product div.product{position:relative}
-.single-product div.product .woocommerce-product-gallery{position:relative;float:left}
-.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery-trigger{position:absolute;top:2em;right:1em;display:block;z-index:99}
-.single-product div.product .woocommerce-product-gallery .flex-viewport{margin-bottom:1em}
-.single-product div.product .woocommerce-product-gallery .flex-control-thumbs{margin:0;padding:0}
-.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li{list-style:none;cursor:pointer;float:left}
-.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li img{opacity:.5}
-.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li img.flex-active{opacity:1}
-.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li:hover img{opacity:1}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-2 .flex-control-thumbs li{width:48.1%}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-2 .flex-control-thumbs li:nth-child(2n){margin-right:0}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-2 .flex-control-thumbs li:nth-child(2n+1){clear:both}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li{width:30.7966666667%}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n){margin-right:0}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n+1){clear:both}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li{width:22.15%}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n){margin-right:0}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1){clear:both}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li{width:16.96%}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n){margin-right:0}
-.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n+1){clear:both}
+.single-product .product{position:relative}
+.single-product .product select{border:1px solid #4c5c68;border-radius:3px;margin-right:1em;font-size:1.1rem;padding:.1em;background-color:#fff}
+.single-product .product .woocommerce-product-gallery{position:relative;float:left}
+.single-product .product .woocommerce-product-gallery .woocommerce-product-gallery-trigger{position:absolute;top:2em;right:1em;display:block;z-index:99}
+.single-product .product .woocommerce-product-gallery .flex-viewport{margin-bottom:1em}
+.single-product .product .woocommerce-product-gallery .flex-control-thumbs{margin:0;padding:0}
+.single-product .product .woocommerce-product-gallery .flex-control-thumbs li{list-style:none;cursor:pointer;float:left}
+.single-product .product .woocommerce-product-gallery .flex-control-thumbs li img{opacity:.5}
+.single-product .product .woocommerce-product-gallery .flex-control-thumbs li img.flex-active{opacity:1}
+.single-product .product .woocommerce-product-gallery .flex-control-thumbs li:hover img{opacity:1}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-2 .flex-control-thumbs li{width:48.1%}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-2 .flex-control-thumbs li:nth-child(2n){margin-right:0}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-2 .flex-control-thumbs li:nth-child(2n+1){clear:both}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li{width:30.7966666667%}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n){margin-right:0}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n+1){clear:both}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li{width:22.15%}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n){margin-right:0}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1){clear:both}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li{width:16.96%}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n){margin-right:0}
+.single-product .product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n+1){clear:both}
 .stock:empty::before{display:none}
 .stock.in-stock{color:#dff2bf}
 .stock.out-of-stock{color:#ffd2d2}
@@ -252,6 +254,7 @@ ul.products li.product .button{display:block}
 .product-link{display:none}
 .woocommerce h2{padding-top:2rem}
 .woocommerce abbr{text-decoration:none}
+.wc-tabs{display:none}
 .main-navigation-cart{position:relative;margin:0;padding:0}
 .main-navigation-cart .cart-contents{text-decoration:none}
 .main-navigation-cart .widget_shopping_cart{display:none}
@@ -350,11 +353,12 @@ ul.products.columns-6 li.product{width:13.4933333333%}
 .header-slider.wp-block-gallery figure figcaption strong{margin-bottom:.2em}
 .header-slider.wp-block-gallery figure figcaption br{display:block}
 .header-slider.wp-block-gallery figure figcaption a{display:inline-block;top:2em}
-table.shop_table_responsive thead{display:table-header-group}
-table.shop_table_responsive tbody th{display:table-cell}
-table.shop_table_responsive tr th,table.shop_table_responsive tr td{text-align:left}
-table.shop_table_responsive tr td{display:table-cell}
-table.shop_table_responsive tr td::before{display:none}
+table thead{display:table-header-group}
+table tbody th{display:table-cell}
+table tr th,table tr td{text-align:left}
+table tr td{display:table-cell}
+table tr td::before{display:none}
+.single-product .product select{margin-left:1em}
 .col2-set .form-row-first{float:left;margin-right:3.8%}
 .col2-set .form-row-last{float:right;margin-right:0}
 .col2-set .form-row-first,.col2-set .form-row-last{width:48.1%}
